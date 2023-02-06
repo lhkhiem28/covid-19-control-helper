@@ -1,0 +1,4 @@
+/ckps/*/*
+
+**/__pycache__
+**/wandb
