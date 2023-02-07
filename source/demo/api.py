@@ -16,8 +16,8 @@ class NER():
     def ner_predict(self, 
         sentence, 
     ):
-        sentence = underthesea.word_tokenize(sentence, format = "text")
         sentence = vitools.normalize_diacritics(sentence)
+        sentence = underthesea.word_tokenize(sentence, format = "text")
 
         output = {
             "PATIENT_ID":[], 
