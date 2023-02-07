@@ -21,11 +21,11 @@ class NERDataset(torch.utils.data.Dataset):
         index, 
     ):
         sample = self.data[index]
-        words, tags,  = sample["words"], sample["tags"], 
-        encoded_words, encoded_tags,  = vncorenlp.ner_encode(
-            words, tags, 
-            tag_names = self.tag_names, 
-            tokenizer = self.tokenizer, 
+        words, tags = sample["words"], sample["tags"]
+        encoded_words, encoded_tags = vncorenlp.ner_encode(
+            words, tags
+            , tag_names = self.tag_names
+            , tokenizer = self.tokenizer
         )
 
-        return np.array(encoded_words), np.array(encoded_tags), 
+        return np.array(encoded_words), np.array(encoded_tags)

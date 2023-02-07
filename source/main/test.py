@@ -30,38 +30,25 @@ tag_names = [
     "O"
 ]
 
-train_loaders = {
-    "train":torch.utils.data.DataLoader(
-        NERDataset(
-            data_path = "../../datasets/PhoNER-COVID-19/word/train.json", 
-            tag_names = tag_names, 
-        ), 
-        num_workers = 4, batch_size = 16, 
-        shuffle = True, 
+test_loader = torch.utils.data.DataLoader(
+    NERDataset(
+        data_path = "../../datasets/PhoNER-COVID-19/word/test.json", 
+        tag_names = tag_names, 
     ), 
-    "val":torch.utils.data.DataLoader(
-        NERDataset(
-            data_path = "../../datasets/PhoNER-COVID-19/word/val.json", 
-            tag_names = tag_names, 
-        ), 
-        num_workers = 4, batch_size = 16, 
-        shuffle = True, 
-    ), 
-}
+    num_workers = 4, batch_size = 16, 
+    shuffle = False, 
+)
 model = transformers.RobertaForTokenClassification.from_pretrained(
     "vinai/phobert-large", 
     num_labels = len(tag_names), 
 )
-optimizer = torch.optim.AdamW(
-    model.parameters(), lr = 5e-5, 
-)
 
 save_ckp_dir = "../../ckps/PhoNER-COVID-19/word"
-if not os.path.exists(save_ckp_dir):
-    os.makedirs(save_ckp_dir)
-train_fn(
-    train_loaders, num_epochs = 20, 
-    model = model, 
-    optimizer = optimizer, 
-    save_ckp_dir = save_ckp_dir, 
+model = torch.load(
+    "{}/best.ptl".format(save_ckp_dir), 
+    map_location = "cuda", 
+)
+test_fn(
+    test_loader, 
+    model, 
 )
