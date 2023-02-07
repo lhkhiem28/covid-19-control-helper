@@ -9,9 +9,9 @@ def ner_f1_score(
     tags, preds,  = tags[masks].tolist(), preds[masks].tolist(), 
     tags, preds,  = [tag_names[tag] for tag in tags], [tag_names[pred] for pred in preds], 
 
-    f1_score = seqeval.metrics.f1_score(
+    f1_score = seqmetrics.f1_score(
         [tags], [preds], 
-        scheme = seqeval.scheme.BIO2, mode = "strict", 
+        scheme = seqscheme.BIO2, mode = "strict", 
         average = "micro", 
     )
 
@@ -25,9 +25,9 @@ def ner_classification_report(
     tags, preds,  = tags[masks].tolist(), preds[masks].tolist(), 
     tags, preds,  = [tag_names[tag] for tag in tags], [tag_names[pred] for pred in preds], 
 
-    classification_report = seqeval.metrics.classification_report(
+    classification_report = seqmetrics.classification_report(
         [tags], [preds], 
-        scheme = seqeval.scheme.BIO2, mode = "strict", 
+        scheme = seqscheme.BIO2, mode = "strict", 
         digits = 4, 
     )
 

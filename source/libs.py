@@ -9,6 +9,6 @@ import torch
 import torch.nn as nn, torch.optim as optim
 import torch.nn.functional as F
 import transformers
-import seqeval
+import seqeval.metrics as seqmetrics, seqeval.scheme as seqscheme
 import py_vncorenlp as vncorenlp
 import tqdm

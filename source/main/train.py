@@ -36,7 +36,7 @@ train_loaders = {
             data_path = "../../datasets/PhoNER-COVID-19/word/train.json", 
             tag_names = tag_names, 
         ), 
-        num_workers = 4, batch_size = 32, 
+        num_workers = 4, batch_size = 16, 
         shuffle = True, 
     ), 
     "val":torch.utils.data.DataLoader(
@@ -44,7 +44,7 @@ train_loaders = {
             data_path = "../../datasets/PhoNER-COVID-19/word/val.json", 
             tag_names = tag_names, 
         ), 
-        num_workers = 4, batch_size = 32, 
+        num_workers = 4, batch_size = 16, 
         shuffle = True, 
     ), 
 }
@@ -53,17 +53,16 @@ model = transformers.RobertaForTokenClassification.from_pretrained(
     num_labels = len(tag_names), 
 )
 optimizer = torch.optim.AdamW(
-    model.parameters(), weight_decay = 5e-5, 
+    model.parameters(), 
     lr = 5e-5, 
 )
 
-save_ckp_dir = "../../ckps/PhoNER-COVID-19/word/"
+save_ckp_dir = "../../ckps/PhoNER-COVID-19/word"
 if not os.path.exists(save_ckp_dir):
     os.makedirs(save_ckp_dir)
 train_fn(
-    train_loaders, num_epochs = 30, 
+    train_loaders, num_epochs = 20, 
     model = model, 
     optimizer = optimizer, 
-    tag_names = tag_names, 
     save_ckp_dir = save_ckp_dir, 
 )
