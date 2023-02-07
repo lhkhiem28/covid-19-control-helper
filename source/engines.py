@@ -21,7 +21,7 @@ def train_fn(
         running_tags, running_preds = [], []
         for words, tags in tqdm.tqdm(train_loaders["train"]):
             words, tags = words.cuda(), tags.cuda()
-            masks = (words != train_loaders["train"].dataset.tokenizer.pad_token_id).type(words.type())
+            masks = (words != train_loaders["train"].dataset.tokenizer.pad_token_id).type(words.type()).cuda()
 
             logits = model(words, masks).logits.view(-1, len(train_loaders["train"].dataset.tag_names))
             loss = F.cross_entropy(logits, tags.long().view(-1))
@@ -45,7 +45,7 @@ def train_fn(
             running_tags, running_preds = [], []
             for words, tags in tqdm.tqdm(train_loaders["val"]):
                 words, tags = words.cuda(), tags.cuda()
-                masks = (words != train_loaders["val"].dataset.tokenizer.pad_token_id).type(words.type())
+                masks = (words != train_loaders["val"].dataset.tokenizer.pad_token_id).type(words.type()).cuda()
 
                 logits = model(words, masks).logits.view(-1, len(train_loaders["val"].dataset.tag_names))
                 loss = F.cross_entropy(logits, tags.long().view(-1))
@@ -60,11 +60,8 @@ def train_fn(
             val_loss, val_f1
         ))
         if val_f1 > best_f1:
+            torch.save(model, "{}/best.ptl".format(save_ckp_dir))
             best_f1 = val_f1
-            torch.save(
-                model, 
-                "{}/best.ptl".format(save_ckp_dir), 
-            )
 
     print("\nFinish Training ...\n" + " = "*16)
 
@@ -81,7 +78,7 @@ def test_fn(
         running_tags, running_preds = [], []
         for words, tags in tqdm.tqdm(test_loader):
             words, tags = words.cuda(), tags.cuda()
-            masks = (words != test_loader.dataset.tokenizer.pad_token_id).type(words.type())
+            masks = (words != test_loader.dataset.tokenizer.pad_token_id).type(words.type()).cuda()
 
             logits = model(words, masks).logits.view(-1, len(test_loader.dataset.tag_names))
             loss = F.cross_entropy(logits, tags.long().view(-1))
