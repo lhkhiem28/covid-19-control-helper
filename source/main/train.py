@@ -64,5 +64,6 @@ train_fn(
     train_loaders, num_epochs = 30, 
     model = model, 
     optimizer = optimizer, 
+    tag_names = tag_names, 
     save_ckp_dir = save_ckp_dir, 
 )
