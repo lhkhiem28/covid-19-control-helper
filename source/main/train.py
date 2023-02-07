@@ -52,8 +52,8 @@ model = transformers.RobertaForTokenClassification.from_pretrained(
     "vinai/phobert-large", 
     num_labels = len(tag_names), 
 )
-optimizer = torch.optim.AdamW(
-    model.parameters(), lr = 5e-5, 
+optimizer = torch.optim.Adam(
+    model.parameters(), lr = 1e-5, 
 )
 
 save_ckp_dir = "../../ckps/PhoNER-COVID-19/word"
