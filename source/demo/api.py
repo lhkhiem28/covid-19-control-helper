@@ -5,10 +5,6 @@ class NER():
     def __init__(self, 
         ckp_dir, 
     ):
-        self.tokenizer = transformers.AutoTokenizer.from_pretrained(
-            "vinai/phobert-large", 
-            use_fast = False, 
-        )
         self.model = transformers.pipeline("token-classification", 
             ckp_dir, aggregation_strategy = "simple", 
         )
@@ -18,7 +14,6 @@ class NER():
     ):
         sentence = vitools.normalize_diacritics(sentence)
         sentence = underthesea.word_tokenize(sentence, format = "text")
-
         output = {
             "PATIENT_ID":[], 
             "NAME":[], 
@@ -35,5 +30,19 @@ class NER():
         for entity in pred:
             if entity["entity_group"] in output:
                 output[entity["entity_group"]].append(entity["word"])
+
+        for entity_group, entities in output.items():
+            fixed_entities = []
+            i = 0
+            while i < len(entities):
+                if entities[i].endswith("@@"):
+                    fixed_entity = entities[i][:-2] + entities[i + 1]
+                    fixed_entities.append(fixed_entity.replace("_", " "))
+                    i += 2
+                else:
+                    fixed_entity = entities[i]
+                    fixed_entities.append(fixed_entity.replace("_", " "))
+                    i += 1
+            output[entity_group] = fixed_entities
 
         return output
