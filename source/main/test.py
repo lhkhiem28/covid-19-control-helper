@@ -35,7 +35,7 @@ test_loader = torch.utils.data.DataLoader(
         data_path = "../../datasets/PhoNER-COVID-19/word/test.json", 
         tag_names = tag_names, 
     ), 
-    num_workers = 4, batch_size = 16, 
+    num_workers = 4, batch_size = 8, 
     shuffle = False, 
 )
 model = transformers.RobertaForTokenClassification.from_pretrained(

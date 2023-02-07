@@ -36,7 +36,7 @@ train_loaders = {
             data_path = "../../datasets/PhoNER-COVID-19/word/train.json", 
             tag_names = tag_names, 
         ), 
-        num_workers = 4, batch_size = 16, 
+        num_workers = 4, batch_size = 8, 
         shuffle = True, 
     ), 
     "val":torch.utils.data.DataLoader(
@@ -44,7 +44,7 @@ train_loaders = {
             data_path = "../../datasets/PhoNER-COVID-19/word/val.json", 
             tag_names = tag_names, 
         ), 
-        num_workers = 4, batch_size = 16, 
+        num_workers = 4, batch_size = 8, 
         shuffle = True, 
     ), 
 }
@@ -60,7 +60,7 @@ save_ckp_dir = "../../ckps/PhoNER-COVID-19/word"
 if not os.path.exists(save_ckp_dir):
     os.makedirs(save_ckp_dir)
 train_fn(
-    train_loaders, num_epochs = 20, 
+    train_loaders, num_epochs = 10, 
     model = model, 
     optimizer = optimizer, 
     save_ckp_dir = save_ckp_dir, 
