@@ -1325,7 +1325,7 @@ Nợ_TK 138 Phải thu khác ( 1381 ),O B-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUN
 "Nợ_TK 1388 Phải thu khác ( cá_nhân , tổ_chức phải nộp tiền bồi_thường )",O B-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME O O O O O O O O O
 Nợ_TK 334 Phải trả người lao_động ( số bồi_thường trừ vào lương ),O B-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME O O O O O O O
 Có TK 1381 Tài_sản thiếu chờ xử_lý,O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME
-"Kết_nối phần_mềm hoá_đơn điện_tử , lập phiếu chi từ_hoá đơn điện_tử .",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
+"Kết_nối phần_mềm hoá_đơn điện_tử , lập phiếu chi từ hoá_đơn điện_tử .",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Các chứng_từ có_thể lấy bao_gồm : Chứng_từ mua hàng , Trả lại hàng mua , Hoá_đơn tài_chính , Chứng_từ bán hàng , Chứng_từ đổi trả .",O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O
 Khai_báo Thuế_suất VAT :,O O B-TAX_TYPE O
 "Nếu đơn_vị hạch_toán thuế GTGT theo phương_pháp khấu_trừ : thì cần khai_báo Thuế_suất VAT để khi lấy dữ_liệu sang , và chương_trình có căn_cứ tính lại đơn_giá trước thuế .",O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O B-TAX_TYPE O O O O O O O O O O O O O O O O
@@ -1335,30 +1335,30 @@ Nếu đơn_vị hạch_toán thuế GTGT theo phương_pháp trực_tiếp : th
 "Các chứng_từ có_thể lấy sang bao_gồm : Đơn mua hàng , Chứng_từ mua hàng , Trả lại hàng mua , Hoá_đơn tài_chính , Chứng_từ bán hàng .",O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE O O O O O O
 "Vào phân hệ Bán hàng \ tab Bán hàng hoặc tab Xuất hoá_đơn ( hoặc có_thể thực_hiện trên các phân hệ Mua hàng , Kho , Tiền_mặt , Tiền gửi )",O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O
 "Kiểm_tra và ghi sổ các chứng_từ được lấy sang : đơn mua hàng , chứng_từ mua hàng , trả lại hàng mua , hoá_đơn tài_chính , chứng_từ bán hàng .",O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE O O O O O O
-Lập phiếu chi từ_hoá đơn điện_tử .,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
-Lập chứng_từ từ_hoá đơn điện_tử .,O O O O O O
+Lập phiếu chi từ hoá_đơn điện_tử .,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
+Lập chứng_từ từ hoá_đơn điện_tử .,O O O O O O
 Giúp_Kế toán lập chứng_từ một_cách tự_động khi nhận hoá_đơn điện_tử từ người bán .,O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
-"Các chứng_từ có_thể lập từ_hoá đơn điện_tử bao_gồm : chứng_từ mua hàng , chứng_từ mua dịch_vụ , chứng_từ trả lại hàng bán , chứng_từ Chi tiền_mặt / Chi tiền gửi , chứng_từ nghiệp_vụ khác , chứng_từ quyết_toán tạm_ứng .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
-"Lưu_ý : Phần_mềm đáp_ứng lập chứng_từ từ_hoá đơn điện_tử phát_hành theo Nghị_định 51/2010/NĐ-CP , Nghị_định 123/2020/NĐ-CP , và hoá_đơn điện_tử áp_dụng giảm thuế GTGT theo Nghị_quyết 43/2022/QH15 ( nếu có ) .",O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-TAX_TYPE I-TAX_TYPE
+"Các chứng_từ có_thể lập từ hoá_đơn điện_tử bao_gồm : chứng_từ mua hàng , chứng_từ mua dịch_vụ , chứng_từ trả lại hàng bán , chứng_từ Chi tiền_mặt / Chi tiền gửi , chứng_từ nghiệp_vụ khác , chứng_từ quyết_toán tạm_ứng .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"Lưu_ý : Phần_mềm đáp_ứng lập chứng_từ từ hoá_đơn điện_tử phát_hành theo Nghị_định 51/2010/NĐ-CP , Nghị_định 123/2020/NĐ-CP , và hoá_đơn điện_tử áp_dụng giảm thuế GTGT theo Nghị_quyết 43/2022/QH15 ( nếu có ) .",O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-TAX_TYPE I-TAX_TYPE
 Thao_tác thực_hiện đối_với hoá_đơn điện_tử theo Nghị_định 123 tương_tự như với hoá_đơn điện_tử theo Nghị_định 51 .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
-Mở chứng_từ muốn lập từ_hoá đơn điện_tử ( Ví_dụ : Chứng_từ mua hàng_hoá ) .,O O O O O O O O O O O O O O O
+Mở chứng_từ muốn lập từ hoá_đơn điện_tử ( Ví_dụ : Chứng_từ mua hàng_hoá ) .,O O O O O O O O O O O O O O O
 Vào Tiện_ích \ Nhập_khẩu từ Hoá_đơn điện_tử .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Chọn hình_thức nhập_khẩu ( Từ tệp hoá_đơn điện_tử hoặc Từ mã_số tra_cứu ) :,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 Nếu chọn Từ tệp hoá_đơn điện_tử : Chọn đến tệp hoá_đơn điện_tử dạng XML nhận được từ người bán .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O
 Lưu_ý : Chương_trình đáp_ứng nhập_khẩu hoá_đơn điện_tử được phát_hành bởi các nhà_cung_cấp .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 Nếu chọn Từ mã_số tra_cứu : Nhập mã_số tra_cứu của hoá_đơn vào ô Nhập mã_số tra_cứu .,O O O O O O O O O O B-VOUCHER_TYPE O O O O O O
 Lưu_ý : Hình_thức nhập_khẩu này chỉ thực_hiện được với hoá_đơn của Nhà_cung_cấp .,O O O O O O O O O B-VOUCHER_TYPE O O O
-Có_thể kiểm_tra lại nội_dung hoá_đơn trước khi lập chứng_từ bằng cách nhấn Xem chi_tiết_hoá đơn .,O O O O B-VOUCHER_TYPE O O O O O O O O O O O
-( Lưu_ý : Chưa đáp_ứng tính_năng Xem chi_tiết_hoá đơn với hoá_đơn điện_tử của nhà_cung_cấp VN-invoice ) .,O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
+Có_thể kiểm_tra lại nội_dung hoá_đơn trước khi lập chứng_từ bằng cách nhấn Xem chi_tiết hoá_đơn .,O O O O B-VOUCHER_TYPE O O O O O O O O O O O
+( Lưu_ý : Chưa đáp_ứng tính_năng Xem chi_tiết hoá_đơn với hoá_đơn điện_tử của nhà_cung_cấp VN-invoice ) .,O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 "Trường_hợp lập Phiếu chi / Chứng_từ chi tiền gửi / Chứng_từ nghiệp_vụ khác / Chứng_từ quyết_toán tạm_ứng , cần chọn phương_thức hạch_toán :",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O
 Nếu tích chọn Hạch_toán theo từng dòng chi_tiết trên hoá_đơn : Mỗi dòng hàng trên hoá_đơn điện_tử sẽ được hạch_toán thành một dòng trên chứng_từ nhập_khẩu .,O O O O O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
 Nếu không tích chọn Hạch_toán theo từng dòng chi_tiết trên hoá_đơn : Các dòng hàng trên hoá_đơn điện_tử sẽ được hạch_toán gộp vào một dòng trên chứng_từ nhập_khẩu .,O O O O O O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O
 Nhấn_Đồng ý .,O O O
 "chương_trình luôn lấy sang phần thông_tin Tên , mã_số thuế , Địa_chỉ của NCC tại tab Thuế trên chi_tiết chứng_từ từ thông tin người bán trên hoá_đơn , ngay cả khi NCC này không khai_báo trên Danh_mục .",O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O
-"Cho_phép nhập_khẩu từ_hoá đơn điện_tử giảm 30% thuế GTGT theo nghị_quyết 406 / NĐ-UBTVQH 15 trên các chứng_từ mua hàng , Phiếu chi , Uỷ_nhiệm chi , chứng_từ quyết_toán tạm_ứng , chứng_từ nghiệp_vụ khác .",O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O B-TAX_TYPE I-TAX_TYPE O O O O O O
+"Cho_phép nhập_khẩu từ hoá_đơn điện_tử giảm 30% thuế GTGT theo nghị_quyết 406 / NĐ-UBTVQH 15 trên các chứng_từ mua hàng , Phiếu chi , Uỷ_nhiệm chi , chứng_từ quyết_toán tạm_ứng , chứng_từ nghiệp_vụ khác .",O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O B-TAX_TYPE I-TAX_TYPE O O O O O O
 "Nếu Nhà_cung_cấp , Hàng_hoá trên hoá_đơn chưa có trong danh_mục nhà_cung_cấp , hàng_hoá trên phần_mềm thì thực_hiện thêm mới bằng cách nhấn vào biểu_tượng dấu cộng .",O O O O O B-TAX_TYPE O O O O O O O O O O O O O O O O O O O O O
 "Tích chọn : Khi lập chứng_từ hoá_đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo khai_báo trên danh_mục VTHH .",O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O
-"Không tích chọn : Khi lập chứng_từ từ_hoá đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo tên trên hoá_đơn .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
+"Không tích chọn : Khi lập chứng_từ từ hoá_đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo tên trên hoá_đơn .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
 "Các thông_tin liên_quan như : Số_lượng , Đơn_giá , Thuế_suất … vẫn sẽ được giữ nguyên theo thông_tin trên hoá_đơn của người bán .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O
 Tên báo_cáo : Sổ chi_tiết quỹ tiền_mặt .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O
 Khách_hàng ứng trước tiền mua hàng bằng TGNH .,O O O O O O O O O
@@ -1696,7 +1696,7 @@ Lập nhanh các đơn mua hàng,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_T
 Lập nhanh các hợp_đồng mua hàng,O O O B-VOUCHER_TYPE O O
 Lập nhanh các chứng_từ mua hàng_hoá,O O O O O O
 Lập chứng_từ mua hàng nhiều hoá_đơn,O O O O O B-VOUCHER_TYPE
-Lập chứng_từ mua hàng từ_hoá đơn điện_tử,O O O O O O O
+Lập chứng_từ mua hàng từ hoá_đơn điện_tử,O O O O O O O
 Kiểm_tra tình_trạng hoạt_động của người bán,O O O O O O
 Dashboard phân_tích Mua hàng,O O O O
 "Kết_nối phần_mềm bán hàng : phần_mềm quản_lý cửa_hàng , phần_mềm quản_lý nhà_hàng , hệ_thống website thương_mại_điện_tử .",O O O O O O O O O O O O O O O O O
@@ -2123,7 +2123,7 @@ Tại tab Hàng tiền .,O O O O O
 Tại tab Thuế .,O O O O
 Nhấn_Cất .,O O
 "Lưu_ý : Trường_hợp đơn_vị sử_dụng luôn phần_mềm để quản_lý việc phát_hành hoá_đơn , Kế_toán có_thể xuất hoá_đơn GTGT về hoa_hồng uỷ_thác nhập_khẩu cho bên giao uỷ_thác từ phần_mềm bằng cách :",O O O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE B-TAX_TYPE O O O O O O O O O O O O O
-Thực_hiện cấp số_hoá đơn cho chứng_từ bán hàng .,O O O O O O O O O
+Thực_hiện cấp số hoá_đơn cho chứng_từ bán hàng .,O O O O O O O O O
 In hoá_đơn GTGT ( mẫu đặt in hoặc tự in tuỳ theo thực_tế quản_lý hoá_đơn tại đơn_vị ),O B-VOUCHER_TYPE B-TAX_TYPE O O O O O O O O O O O B-VOUCHER_TYPE O O O
 Hàng về trước hoá_đơn về sau,O O O B-VOUCHER_TYPE O O
 Định khoản,O O
@@ -2150,11 +2150,11 @@ Lưu_ý :,O O
 Thực_hiện kê_khai thuế GTGT lên bảng kê sau khi nhận được hoá_đơn của nhà_cung_cấp,O O B-TAX_TYPE I-TAX_TYPE O O O O O O O B-VOUCHER_TYPE O O
 "Trên màn_hình danh_sách Mua hàng_hoá , dịch_vụ , chọn chứng_từ chưa nhận hoá_đơn cần khai_báo bổ_sung thông_tin hoá_đơn .",O O O O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O
 "Nhấn chuột phải , chọn chức_năng Nhận hoá_đơn .",O O O O O O O B-VOUCHER_TYPE O
-"Khai_báo các thông_tin cho hoá_đơn mua hàng như : số_hoá đơn , ký_hiệu hoá_đơn , thuế_suất , …",O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O
+"Khai_báo các thông_tin cho hoá_đơn mua hàng như : số hoá_đơn , ký_hiệu hoá_đơn , thuế_suất , …",O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O
 "Nhấn_Cất , hệ_thống sẽ chuyển thông_tin hoá_đơn mua hàng vừa khai_báo sang tab Nhận hoá_đơn của phân hệ Mua hàng .",O O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O O O O
 "Lưu_ý : Ngoài_ra , có_thể khai_báo thông_tin hoá_đơn GTGT cho chứng_từ mua hàng thông_qua chức_năng Nhận hoá_đơn tại :",O O O O O O O B-VOUCHER_TYPE B-TAX_TYPE O O O O O O O B-VOUCHER_TYPE O O
 Tab_Nhận hoá_đơn của phân hệ Mua hàng .,O B-VOUCHER_TYPE O O O O O O
-Tab_Hoá đơn đầu vào - Với những hoá_đơn đầu_vào lấy về .,O O O O O O O B-VOUCHER_TYPE O O O O
+Tab hoá_đơn đầu vào - Với những hoá_đơn đầu_vào lấy về .,O O O O O O O B-VOUCHER_TYPE O O O O
 Xử_lý hoá_đơn đầu_vào .,O B-VOUCHER_TYPE O O
 Hoá_đơn về trước hàng về sau,B-VOUCHER_TYPE O O O O O
 Khi nhận được hoá_đơn mà hàng chưa về,O O O B-VOUCHER_TYPE O O O O
@@ -2351,13 +2351,13 @@ Xử_lý hoá_đơn đầu_vào,O O O
 "Giúp_Kế toán không mất thời_gian , công_sức để nhận , kiểm_tra tính hợp_lệ , hợp_pháp của từng hoá_đơn đầu_vào cũng như mất thời_gian nhập liệu vào phần_mềm .",O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O
 Chương_trình sẽ tự_động lọc email để lấy hoá_đơn đầu_vào về phần_mềm .,O O O O O O O B-VOUCHER_TYPE O O O O
 "Tự_động kiểm_tra tính hợp_lệ , hợp_pháp của hoá_đơn .",O O O O O O O B-VOUCHER_TYPE O
-Tự_động lập chứng_từ từ_hoá đơn điện_tử .,O O O O O O O
+Tự_động lập chứng_từ từ hoá_đơn điện_tử .,O O O O O O O
 Chương_trình cho_phép xử_lý hoá_đơn đầu_vào đối_với hoá_đơn điện_tử theo Nghị_định 51/2010/NĐ-CP và hoá_đơn điện_tử phát_hành theo Nghị_định 123/2020/NĐ-CP.,O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Các thao_tác thực_hiện khi xử_lý hoá_đơn đầu_vào theo Nghị_định 123 tương_tự như khi xử_lý hoá_đơn đầu_vào theo Nghị_định 51 .,O O O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O O O O O
 Chi_tiết thực_hiện gồm 3 bước như sau :,O O O O O O O O
 Kết_nối dịch_vụ xử_lý hoá_đơn đầu_vào .,O O O B-VOUCHER_TYPE O O
 "Kiểm_tra tính hợp_lệ , hợp_pháp của Hoá_đơn .",O O O O O O B-VOUCHER_TYPE O
-Chuyển_hoá đơn điện_tử đầu_vào vào phần_mềm,O O O O O O
+Chuyển hoá_đơn điện_tử đầu_vào vào phần_mềm,O O O O O O
 Sử_dụng email khai_báo ở Bước 1 làm email nhận hoá_đơn .,O O O O O O O O O B-VOUCHER_TYPE O
 "Khi các Nhà_cung_cấp gửi hoá_đơn đầu_vào tới địa_chỉ email này , chương_trình sẽ tự_động lọc và lấy về phần_mềm SME với tần_suất 30 phút / lần .",O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O
 Hoặc có_thể lấy về phần_mềm ngay bằng cách nhấn Đồng_bộ .,O O O O O O O O O O O
@@ -2371,9 +2371,9 @@ Nhập_khẩu hoá_đơn có sẵn trên máy vào phần_mềm .,O B-VOUCHER_TY
 "Mỗi khi có email hoá_đơn mới , chương_trình sẽ hiển_thị thông_báo :",O O O O B-VOUCHER_TYPE O O O O O O O
 "Trên danh_sách hoá_đơn đầu_vào , chương_trình hiển_thị kết_quả kiểm_tra tổng_quát , gồm các thông_tin sau :",O O B-VOUCHER_TYPE O O O O O O O O O O O O O
 Có_thể nhấn Xem chi_tiết để xem chi_tiết kết_quả kiểm_tra .,O O O O O O O O O O
-Lập chứng_từ từ_hoá đơn điện_tử .,O O O O O O
+Lập chứng_từ từ hoá_đơn điện_tử .,O O O O O O
 Mỗi hoá_đơn lập thành một chứng_từ .,O B-VOUCHER_TYPE O O O O O
-Chọn_Hoá đơn muốn lập chứng_từ ( có_thể chọn cùng lúc nhiều Hoá_đơn để lập chứng_từ hàng_loạt bằng cách giữ phím Ctrl ) .,O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O
+Chọn hoá_đơn muốn lập chứng_từ ( có_thể chọn cùng lúc nhiều Hoá_đơn để lập chứng_từ hàng_loạt bằng cách giữ phím Ctrl ) .,O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O
 "Nhấn_Lập chứng_từ , chọn loại chứng_từ cần lập .",O O O O O O O O O
 Trường_hợp lập Chứng_từ mua hàng / Chứng_từ mua dịch_vụ / Phiếu chi / Uỷ_nhiệm chi / Chứng_từ nghiệp_vụ khác / Chứng_từ quyết_toán tạm_ứng : cần chọn phương_thức hạch_toán .,O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 Nếu chọn Hạch_toán cộng gộp : Các dòng hàng trên hoá_đơn điện_tử sẽ được hạch_toán gộp vào một dòng trên chứng_từ nhập_khẩu .,O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O
@@ -2398,7 +2398,7 @@ Người dùng dễ_dàng đối_chiếu số_liệu chứng_từ trên phần_m
 "Trường_hợp Nhà_cung_cấp đã có trong danh_mục nhà_cung_cấp nhưng vẫn không lấy được thông_tin lên chứng_từ mua hàng , thì cần kiểm_tra lại xem thông_tin Mã_số thuế và tên Nhà_cung_cấp khai_báo trên danh_mục đã chính_xác chưa để chỉnh_sửa lại cho đúng , sau đó chọn lại Nhà_cung_cấp trong danh_mục .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Trường_hợp Hàng_hoá đã có trong danh_mục hàng_hoá nhưng vẫn không lấy được thông_tin lên chứng_từ mua hàng là do cách đặt Mã_Hàng_hoá và Tên hàng_hoá giữa người mua và người bán không trùng khớp nhau .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "Tích chọn : Khi lập chứng_từ hoá_đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo khai_báo trên danh_mục vật_tư hàng_hoá .",O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O
-"Không tích chọn : Khi lập chứng_từ từ_hoá đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo tên trên hoá_đơn .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
+"Không tích chọn : Khi lập chứng_từ từ hoá_đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo tên trên hoá_đơn .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
 "Các thông_tin liên_quan như : Số_lượng , Đơn_giá , Thuế_suất , ... vẫn sẽ được giữ nguyên theo thông_tin trên hoá_đơn của người bán .",O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O
 "Người dùng có_thể xoá_bỏ hoá_đơn nhà_cung_cấp gửi nhầm , hoá_đơn không liên_quan doanh_nghiệp .",O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O
 Lập nhanh các đơn mua hàng,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE
@@ -2521,7 +2521,7 @@ Chọn loại tiền : hệ_thống đang mặc_định theo đồng_tiền hạ
 "Thông_tin hàng tiền : chọn các vật_tư , hàng_hoá được doanh_nghiệp mua về , đồng_thời khai_báo các thông_tin về :",O O O O O O O O O O O O O O O O O O O O
 Thông_tin thuế :,O O O
 "khai_báo thông_tin thuế GTGT ( nếu có ) của hàng_hoá được mua về , phục_vụ cho việc lấy dữ_liệu lên bảng kê mua vào .",O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O O O O O O O O
-"Nhập các Số_hoá đơn , Ngày hoá_đơn có liên_quan .",O O O O O O B-VOUCHER_TYPE O O O
+"Nhập các Số hoá_đơn , Ngày hoá_đơn có liên_quan .",O O O O O O B-VOUCHER_TYPE O O O
 "Thông_tin phí trước hải_quan : thực_hiện phân_bổ phí trước hải_quan vào giá_trị nhập kho của từng vật_tư , hàng_hoá ( nếu có ) .",O O O O O O O O O O O O O O O O O O O O O O O O
 "Thông_tin phí hàng về kho : thực_hiện phân_bổ chi_phí mua hàng vào giá_trị nhập kho của từng vật_tư , hàng_hoá ( nếu có ) .",O O O O O O O O O O O O O O O O O O O O O O O O O
 Lập chứng_từ mua hàng nhập_khẩu không nhập kho .,O O O O O O O O O
@@ -2543,10 +2543,10 @@ Có_thể lập chứng_từ mua hàng từ đơn mua hàng .,O O O O O O B-VOUC
 "Với chứng_từ mua hàng nhập_khẩu về nhập kho , cần thực_hiện phân_bổ chi_phí trước hải_quan vào từng mặt_hàng được mua về .",O O O O O O O O O O O O O O O O O O O O O O
 "Sau khi lưu chứng_từ mua hàng_hoá , kế_toán có_thể chọn chức_năng In trên thanh công_cụ để chọn mẫu chứng_từ mua hàng cần in .",O O O O O O O O O O O O O O O O O O O O O O O O
 Có_thể in theo mẫu do phần_mềm cung_cấp hoặc theo mẫu đặc_thù của doanh_nghiệp ( xem thêm chức_năng Thiết_kế mẫu chứng_từ ) .,O O O O O O O O O O O O O O O O O O O O O O
-Lập chứng_từ từ_hoá đơn điện_tử,O O O O O
+Lập chứng_từ từ hoá_đơn điện_tử,O O O O O
 Nội_dung,O
 Giúp_Kế toán lập chứng_từ một_cách tự_động khi nhận hoá_đơn điện_tử từ người bán .,O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
-Các chứng_từ có_thể lập từ_hoá đơn điện_tử bao_gồm :,O O O O O O O O O
+Các chứng_từ có_thể lập từ hoá_đơn điện_tử bao_gồm :,O O O O O O O O O
 Chứng_từ mua hàng,O O O
 Chứng_từ mua dịch_vụ,O O O
 Chứng_từ trả lại hàng bán,O O O O O
@@ -2554,18 +2554,18 @@ Chứng_từ Chi tiền_mặt / Chi tiền gửi,O O O O O O O
 Chứng_từ nghiệp_vụ khác,O O O
 Chứng_từ quyết_toán tạm_ứng .,O O O O
 Các bước thực_hiện,O O O
-"Phần_mềm đáp_ứng lập chứng_từ từ_hoá đơn điện_tử phát_hành theo Nghị_định 51/2010/NĐ-CP , Nghị_định 123/2020/NĐ-CP , và hoá_đơn điện_tử áp_dụng giảm thuế GTGT theo Nghị_quyết 43/2022/QH15 ( nếu có ) .",O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-TAX_TYPE I-TAX_TYPE
+"Phần_mềm đáp_ứng lập chứng_từ từ hoá_đơn điện_tử phát_hành theo Nghị_định 51/2010/NĐ-CP , Nghị_định 123/2020/NĐ-CP , và hoá_đơn điện_tử áp_dụng giảm thuế GTGT theo Nghị_quyết 43/2022/QH15 ( nếu có ) .",O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-TAX_TYPE I-TAX_TYPE
 Thao_tác thực_hiện đối_với hoá_đơn điện_tử theo Nghị_định 123 tương_tự như với hoá_đơn điện_tử theo Nghị_định 51 .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 Tiện_ích này chỉ có_thể thực_hiện được khi có kết_nối internet .,O O O O O O O O O O O
-Mở chứng_từ muốn lập từ_hoá đơn điện_tử ( Ví_dụ : Chứng_từ mua hàng_hoá ) .,O O O O O O O O O O O O O O O
+Mở chứng_từ muốn lập từ hoá_đơn điện_tử ( Ví_dụ : Chứng_từ mua hàng_hoá ) .,O O O O O O O O O O O O O O O
 Vào Tiện_ích \ Nhập_khẩu từ Hoá_đơn điện_tử .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Chọn hình_thức nhập_khẩu ( Từ tệp hoá_đơn điện_tử hoặc Từ mã_số tra_cứu ) :,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 Nếu chọn Từ tệp hoá_đơn điện_tử : Chọn đến tệp hoá_đơn điện_tử dạng xml nhận được từ người bán .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O
 "Lưu_ý : Chương_trình đáp_ứng nhập_khẩu hoá_đơn điện_tử được phát_hành bởi các nhà_cung_cấp , xem tại đây .",O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
 Nếu chọn Từ mã_số tra_cứu : Nhập mã_số tra_cứu của hoá_đơn vào ô Nhập mã_số tra_cứu,O O O O O O O O O O B-VOUCHER_TYPE O O O O O
 Lưu_ý : Hình_thức nhập_khẩu này chỉ thực_hiện được với hoá_đơn của Nhà_cung_cấp dịch_vụ hoá_đơn điện_tử,O O O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
-Có_thể kiểm_tra lại nội_dung hoá_đơn trước khi lập chứng_từ bằng cách nhấn Xem chi_tiết_hoá đơn .,O O O O B-VOUCHER_TYPE O O O O O O O O O O O
-( Lưu_ý : Chưa đáp_ứng tính_năng Xem chi_tiết_hoá đơn với hoá_đơn điện_tử của nhà_cung_cấp dịch_vụ hoá_đơn điện_tử khác ),O O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
+Có_thể kiểm_tra lại nội_dung hoá_đơn trước khi lập chứng_từ bằng cách nhấn Xem chi_tiết hoá_đơn .,O O O O B-VOUCHER_TYPE O O O O O O O O O O O
+( Lưu_ý : Chưa đáp_ứng tính_năng Xem chi_tiết hoá_đơn với hoá_đơn điện_tử của nhà_cung_cấp dịch_vụ hoá_đơn điện_tử khác ),O O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 "Trường_hợp lập Phiếu chi / Chứng_từ chi tiền gửi / Chứng_từ nghiệp_vụ khác / Chứng_từ quyết_toán tạm_ứng , cần chọn phương_thức hạch_toán :",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O
 Nếu tích chọn Hạch_toán theo từng dòng chi_tiết trên hoá_đơn : Mỗi dòng hàng trên hoá_đơn điện_tử sẽ được hạch_toán thành một dòng trên chứng_từ nhập_khẩu .,O O O O O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
 Nếu không tích chọn Hạch_toán theo từng dòng chi_tiết trên hoá_đơn : Các dòng hàng trên hoá_đơn điện_tử sẽ được hạch_toán gộp vào một dòng trên chứng_từ nhập_khẩu .,O O O O O O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O
@@ -2574,12 +2574,12 @@ Chương_trình sẽ tự_động lấy thông_tin trên hoá_đơn để lập 
 Có_thể thay_đổi lại các thông_tin trên chứng_từ theo nhu_cầu ( nếu cần ) .,O O O O O O O O O O O O O O
 Nhấn_Cất .,O O
 "Lưu_ý : Từ phần_mềm kế_toán 2022 - R26 , chương_trình luôn lấy sang phần thông_tin Tên , mã_số thuế , Địa_chỉ của NCC tại tab Thuế trên chi_tiết chứng_từ từ thông tin người bán trên hoá_đơn , ngay cả khi NCC này không khai_báo trên Danh_mục .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O
-"Cho_phép nhập_khẩu từ_hoá đơn điện_tử giảm 30% thuế GTGT theo nghị_quyết 406 / NĐ-UBTVQH 15 phát_hành từ_dịch vụ hoá_đơn điện_tử trên các chứng_từ mua hàng , phiếu chi , uỷ_nhiệm chi , chứng_từ quyết_toán tạm_ứng , chứng_từ nghiệp_vụ khác .",O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O B-TAX_TYPE I-TAX_TYPE O B-TAX_TYPE I-TAX_TYPE O O O O O O
+"Cho_phép nhập_khẩu từ hoá_đơn điện_tử giảm 30% thuế GTGT theo nghị_quyết 406 / NĐ-UBTVQH 15 phát_hành từ_dịch vụ hoá_đơn điện_tử trên các chứng_từ mua hàng , phiếu chi , uỷ_nhiệm chi , chứng_từ quyết_toán tạm_ứng , chứng_từ nghiệp_vụ khác .",O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O B-TAX_TYPE I-TAX_TYPE O B-TAX_TYPE I-TAX_TYPE O O O O O O
 "Nếu Nhà_cung_cấp , Hàng_hoá trên hoá_đơn chưa có trong danh_mục nhà_cung_cấp , hàng_hoá trên phần_mềm thì thực_hiện thêm mới bằng cách nhấn vào biểu_tượng dấu cộng .",O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O
 "Trường_hợp Nhà_cung_cấp đã có trong danh_mục nhà_cung_cấp nhưng vẫn không lấy được thông_tin lên chứng_từ mua hàng , thì cần kiểm_tra lại xem thông_tin Mã_số thuế và tên Nhà_cung_cấp khai_báo trên danh_mục đã chính_xác chưa để chỉnh_sửa lại cho đúng , sau đó chọn lại Nhà_cung_cấp trong danh_mục .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Trường_hợp Hàng_hoá đã có trong danh_mục hàng_hoá nhưng vẫn không lấy được thông_tin lên chứng_từ mua hàng là do cách đặt Mã_Hàng_hoá và Tên hàng_hoá giữa người mua và người bán không trùng khớp nhau .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "Tích chọn : Khi lập chứng_từ hoá_đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo khai_báo trên danh_mục vật_tư hàng_hoá .",O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O
-"Không tích chọn : Khi lập chứng_từ từ_hoá đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo tên trên hoá_đơn .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
+"Không tích chọn : Khi lập chứng_từ từ hoá_đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo tên trên hoá_đơn .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
 "Các thông_tin liên_quan như : Số_lượng , Đơn_giá , Thuế_suất , ... vẫn sẽ được giữ nguyên theo thông_tin trên hoá_đơn của người bán .",O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O
 Kiểm_tra tình_trạng hoạt_động của người bán,O O O O O O
 "Giúp tra_cứu nhanh tình_trạng hoạt_động của Nhà_cung_cấp như : Đang hoạt_động , Ngừng hoạt_động ... giúp giảm_thiểu việc kê_khai các hoá_đơn không hợp_lệ .",O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O
@@ -2698,7 +2698,7 @@ Chọn khoảng thời_gian muốn lấy dữ_liệu .,O O O O O O O
 "Chương_trình tự_động lấy về các chứng_từ , được tích chọn đồng_bộ khi Thiết_lập kết_nối hệ_thống khác ( ở bước 1 ) và chưa được lấy sang phần_mềm kế_toán trước đó .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Trả lại hàng mua,O O O O
 "Trường_hợp nguyên_vật_liệu , hàng_hoá nhập_khẩu về dùng cho hoạt_động sản_xuất , kinh_doanh hàng_hoá , dịch_vụ chịu thuế GTGT tính theo phương_pháp khấu_trừ .",O O O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O
-Lập chứng_từ trả lại hàng bán từ_hoá đơn điện_tử .,O O O O O O O O O O
+Lập chứng_từ trả lại hàng bán từ hoá_đơn điện_tử .,O O O O O O O O O O
 Thực_hiện tương_tự hướng_dẫn tại đây .,O O O O O O
 Kiểm_tra tình_trạng hoạt_động của người mua .,O O O O O O O
 Nội_dung,O
@@ -2730,7 +2730,7 @@ Hướng_dẫn nghiệp_vụ,O O
 Lập hoá_đơn điện_tử,O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Phát_hành hoá_đơn điện_tử,O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Gửi hoá_đơn cho khách_hàng,O B-VOUCHER_TYPE O O
-Chuyển_hoá đơn điện_tử thành hoá_đơn giấy,O O O O B-VOUCHER_TYPE O
+Chuyển hoá_đơn điện_tử thành hoá_đơn giấy,O O O O B-VOUCHER_TYPE O
 Xoá hoá_đơn và lập hoá_đơn thay_thế,O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
 Lập thông_báo huỷ hoá_đơn điện_tử,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Lập biên_bản huỷ hoá_đơn điện_tử,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
@@ -2796,7 +2796,7 @@ Việc hiển_thị thông_tin mẫu hoá_đơn được thực_hiện theo nguy
 Ký_hiệu hoá_đơn : phải nhập đúng theo quy_định ( 6 ký_tự đối_với hoá_đơn điện_tử ) .,O B-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 "2 ký_tự đầu để phân_biệt các ký_hiệu hoá_đơn , ký_tự phân_biệt là hai chữ_cái trong 20 chữ_cái in hoa của bảng_chữ_cái tiếng Việt bao_gồm :",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O
 "Ký_tự thứ 3 là dấu "" / "" .",O O O O O O O O O
-2 ký_tự tiếp_theo thể_hiện năm tạo_hoá đơn : Năm tạo_hoá đơn được thể_hiện bằng hai số cuối của năm thông_báo phát_hành .,O O O O O O O O O O O O O O O O O O O O O O
+2 ký_tự tiếp_theo thể_hiện năm tạo hoá_đơn : Năm tạo hoá_đơn được thể_hiện bằng hai số cuối của năm thông_báo phát_hành .,O O O O O O O O O O O O O O O O O O O O O O
 1 ký_tự cuối thể_hiện hình_thức hoá_đơn : Hình_thức hoá_đơn điện_tử được ký_hiệu là E.,O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 Dựa trên mẫu : cho_phép tạo_mẫu hoá_đơn dựa trên mẫu do phần_mềm cung_cấp .,O O O O O O B-VOUCHER_TYPE O O O O O O O
 Danh_sách mẫu sẽ thay_đổi tuỳ_thuộc vào loại hoá_đơn và hình_thức hoá_đơn đã chọn ở trên .,O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O O
@@ -2833,7 +2833,7 @@ Cần thực_hiện Thiết_lập ký số trước khi ký điện_tử .,O O O
 "Trường_hợp sử_dụng chữ_ký số eSign , với lần ký số đầu_tiên chương_trình yêu_cầu nhập mã xác_thực ký số :",O O O O O O O O O O O O O O O O O O O
 "Nếu tích chọn "" Ghi_nhớ mã xác_thực ( mã pin ) cho lần sau "" chương_trình sẽ yêu_cầu nhập mã xác_thực mỗi lần thực_hiện ký số",O O O O O O O O O O O O O O O O O O O O O O O O O O
 Nếu không tích chọn : Chỉ cần nhập mã xác_thực ở lần ký số đầu_tiên,O O O O O O O O O O O O O O O
-Sau đó nhấn In để in ra giấy hoặc nhấn Xuất_khẩu để lưu_hoá đơn mẫu dưới dạng file PDF hoặc Word .,O O O O O O O O O O O O O O O O O O O O O O
+Sau đó nhấn In để in ra giấy hoặc nhấn Xuất_khẩu để lưu hoá_đơn mẫu dưới dạng file PDF hoặc Word .,O O O O O O O O O O O O O O O O O O O O O O
 "Chuyển_đổi chứng_từ giấy : Kế_toán có thế nhấn "" Chuyển chứng_từ giấy "" để xem và chỉnh_sửa mẫu hoá_đơn chuyển_đổi ra giấy , sau đó nhấn In để in ra giấy hoặc nhấn Xuất_khẩu để lưu lại hoá_đơn chuyển_đổi theo định_dạng file PDF hoặc Word .",O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O
 Lưu_ý : Hiện_tại mẫu hoá_đơn điện_tử của phần_mềm chỉ đáp_ứng những thông_tin cơ_bản theo mẫu hoá_đơn điện_tử mà Tổng_cục Thuế gợi_ý sử_dụng .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 "Do_đó nếu kế_toán sử_dụng mẫu đặc_thù của doanh_nghiệp hoặc sửa mẫu , có lấy các thông_tin khác thông_tin cơ_bản mà Tổng_cục Thuế gợi_ý thì khi phát_hành hoá_đơn , các thông_tin này sẽ không hiển_thị trên hoá_đơn điện_tử gửi cho người mua .",O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
@@ -2947,13 +2947,13 @@ Khai_báo hoá_đơn GTGT .,O B-VOUCHER_TYPE B-TAX_TYPE O
 "Chương_trình sẽ tự_động lấy lên các thông_tin tương_ứng trên chứng_từ bán hàng , có_thể sửa lại các thông_tin này ( nếu cần ) .",O O O O O O O O O O O O O O O O O O O O O O O O
 Lưu_ý : Việc lập chứng_từ bán hàng sau khi lập hoá_đơn GTGT còn được thực_hiện bằng cách :,O O O O O O O O O O B-VOUCHER_TYPE B-TAX_TYPE O O O O O O
 Thêm mới một chứng_từ bán hàng không lập kèm hoá_đơn trên tab Bán hàng .,O O O O O O O O O B-TAX_TYPE O O O O O
-Chọn lập chứng_từ bán hàng từ_hoá đơn .,O O O O O O O O
+Chọn lập chứng_từ bán hàng từ hoá_đơn .,O O O O O O O O
 Nhập_khẩu hàng_loạt hoá_đơn từ file Excel,O O B-VOUCHER_TYPE O O O
 Chọn nhập_khẩu Hoá_đơn bán hàng từ file Excel .,O O B-VOUCHER_TYPE O O O O O O
 Thực_hiện nhập_khẩu Hoá_đơn bán hàng vào phần_mềm tương_tự như hướng_dẫn tại đây .,O O B-VOUCHER_TYPE O O O O O O O O O O
 Lưu_ý cách điền thông_tin trên tệp Excel nhập_khẩu .,O O O O O O O O O
 "Cột_Số thứ_tự là để chương_trình phân_biệt các hoá_đơn với nhau , trường_hợp một hoá_đơn có nhiều hàng_hoá thì cần nhập cùng một_số thứ_tự cho mỗi dòng hàng_hoá của hoá_đơn đó .",O O O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O B-VOUCHER_TYPE O O
-Không điền thông_tin vào cột : Mẫu_số hoá_đơn ; Ký_hiệu hoá_đơn ; Số_hoá đơn,O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O
+Không điền thông_tin vào cột : Mẫu_số hoá_đơn ; Ký_hiệu hoá_đơn ; Số hoá_đơn,O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O
 Hoá_đơn sau khi nhập_khẩu sẽ hiển_thị tại :,B-VOUCHER_TYPE O O O O O O O
 "tab Xuất hoá_đơn , phân hệ Bán hàng",O O B-VOUCHER_TYPE O O O O O
 "tab Hoá_đơn điện_tử , phân hệ Hoá_đơn điện_tử",O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
@@ -2969,7 +2969,7 @@ Chọn tab Hoá_đơn điện_tử .,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Thiết_lập điều_kiện tìm_kiếm hoá_đơn điện_tử cần phát_hành .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Nhấn_Lấy dữ_liệu .,O O O
 "Chọn hoá_đơn trên danh_sách , sau đó nhấn Phát_hành hoá_đơn điện_tử .",O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
-"Cấp số_hoá đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn muốn phát_hành .",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O
+"Cấp số hoá_đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn muốn phát_hành .",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O
 "Lưu_ý : Với các hoá_đơn đã được lập và cấp số trên phiên_bản R36 trở về trước , khi nâng_cấp lên phiên_bản mới , thì chương_trình sẽ hiển_thị Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn tương_ứng của hoá_đơn và không cho_phép sửa các thông_tin này .",O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O O O O O
 Tích chọn Gửi hoá_đơn cho khách_hàng : nếu muốn chương_trình tự_động gửi thông_tin về hoá_đơn điện_tử cho khách_hàng ngay sau khi thực_hiện chức_năng phát_hành hoá_đơn điện_tử .,O O O B-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Tên người nhận và Email :,O O O O O O
@@ -2985,7 +2985,7 @@ Trường_hợp sử_dụng chữ_ký số eSign với lần ký số đầu_ti�
 "Nếu tích chọn "" Ghi_nhớ mã xác_thực ( mã pin ) cho lần sau "" : Chỉ cần nhập mã xác_thực ở lần ký số đầu_tiên",O O O O O O O O O O O O O O O O O O O O O O O O O O
 Nếu không tích chọn : chương_trình sẽ yêu_cầu nhập mã xác_thực mỗi lần thực_hiện ký số,O O O O O O O O O O O O O O O O
 Trường_hợp sử_dụng chữ_ký số HSM : Kiểm_tra lại thông_tin ký số và nhấn Đồng_ý .,O O O O O O O O O O O O O O O
-"Trường_hợp sử_dụng USB Token : Lựa_chọn chứng_thư số trên USB Token và nhấn OK , chương_trình đồng_thời cấp số_hoá đơn và phát_hành hoá_đơn điện_tử .",O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
+"Trường_hợp sử_dụng USB Token : Lựa_chọn chứng_thư số trên USB Token và nhấn OK , chương_trình đồng_thời cấp số hoá_đơn và phát_hành hoá_đơn điện_tử .",O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Phát_hành hoá_đơn điện_tử ngay sau khi lập xong hoá_đơn trên các phân hệ Bán hàng / Kho / Mua hàng,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O O O O O O O
 "Ví_dụ : Sau khi lập chứng_từ bán hàng kèm hoá_đơn ( loại hoá_đơn điện_tử ) , Kế_toán có_thể thực_hiện phát_hành hoá_đơn điện_tử bằng cách :",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Nhấn_Phát hành hoá_đơn điện_tử .,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
@@ -2999,10 +2999,10 @@ Có_thể thực_hiện phát_hành hàng_loạt hoá_đơn điện_tử theo 1 
 Phát hàng hàng_loạt hoá_đơn điện_tử trên phân hệ Hoá_đơn điện_tử .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Nhấn vào chức_năng Phát_hành hoá_đơn điện_tử hàng_loạt .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 "Thiết_lập điều_kiện tìm_kiếm các hoá_đơn cần phát_hành , sau đó nhấn Lấy dữ_liệu .",O O O O B-VOUCHER_TYPE O O O O O O O O O
-Chương_trình sẽ lấy lên các hoá_đơn đã cấp số_hoá đơn và chưa cấp số_hoá đơn,O O O O O B-VOUCHER_TYPE O O O O O O O O O
+Chương_trình sẽ lấy lên các hoá_đơn đã cấp số hoá_đơn và chưa cấp số hoá_đơn,O O O O O B-VOUCHER_TYPE O O O O O O O O O
 "Tích chọn các hoá_đơn cần phát_hành , sau đó nhấn Tiếp_theo .",O O O B-VOUCHER_TYPE O O O O O O O O
-"Cấp số_hoá đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn cho từng hoá_đơn .",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
-"Sau đó , nhấn Cấp số_hoá đơn .",O O O O O O O O
+"Cấp số hoá_đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn cho từng hoá_đơn .",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
+"Sau đó , nhấn Cấp số hoá_đơn .",O O O O O O O O
 "Với các hoá_đơn đã được lập và cấp số trên phiên_bản R36 trở về trước , khi nâng_cấp lên phiên_bản mới , thì chương_trình sẽ hiển_thị Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn tương_ứng của hoá_đơn và không cho_phép sửa các thông_tin này .",O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O O O O O
 "Kế_toán có_thể khai_báo nhanh các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn bằng cách chọn dòng hoá_đơn , nhấn chuột phải và chọn chức_năng Sao_chép dữ_liệu cho các dòng dưới .",O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O
 Nhấn_Tiếp theo .,O O O
@@ -3083,7 +3083,7 @@ Chuyển từng hoá_đơn điện_tử thành hoá_đơn giấy,O O B-VOUCHER_T
 "Trường_hợp hoá_đơn đã được chuyển thành hoá_đơn giấy trước đó , chương_trình sẽ tự_động tích chọn ô Đã chuyển_đổi thành hoá_đơn giấy .",O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O B-VOUCHER_TYPE O O
 "Thông_tin Người chuyển_đổi được chương_trình tự_động lấy lên theo họ và tên người đăng_nhập , tuy_nhiên Kế_toán vẫn có_thể thay_đổi nếu cần .",O O O O O O O O O O O O O O O O O O O O O O O
 Có_thể xem trước nội_dung hoá_đơn trước khi chuyển thành hoá_đơn giấy bằng cách nhấn Xem hoá_đơn .,O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O
-"Nhấn Thực_hiện , chương_trình sẽ tự_động chuyển_hoá đơn điện_tử sang file PDF .",O O O O O O O O O O O O O
+"Nhấn Thực_hiện , chương_trình sẽ tự_động chuyển hoá_đơn điện_tử sang file PDF .",O O O O O O O O O O O O O
 Nhấn vào biểu_tượng máy_in để in hoá_đơn điện_tử sau khi chuyển_đổi ra giấy .,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 "Nhấn vào biểu_tượng lưu , sau đó chọn đường_dẫn lưu_trữ hoá_đơn chuyển_đổi vào máy_tính để tra_cứu lại khi cần .",O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O
 Chuyển hàng_loạt hoá_đơn điện_tử thành hoá_đơn giấy .,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE O O
@@ -3120,7 +3120,7 @@ Phân hệ Bán hàng \ tab Xuất hoá_đơn,O O O O O O O B-VOUCHER_TYPE
 Phân hệ Kho \ tab Chuyển kho,O O O O O O O
 Phân hệ Hoá_đơn điện_tử,O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Lập và phát_hành hoá_đơn thay_thế cho hoá_đơn bị xoá_bỏ,O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O
-"Hoá_đơn bị xoá_bỏ là hoá_đơn đi kèm với một trong số các loại chứng_từ sau : Chứng_từ bán hàng , chứng_từ giảm_giá hàng bán , chứng_từ trả lại hàng mua : sau khi xoá hoá_đơn chương_trình sẽ tự_động sinh_hoá đơn thay_thế lập kèm với chứng_từ gốc .",B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
+"Hoá_đơn bị xoá_bỏ là hoá_đơn đi kèm với một trong số các loại chứng_từ sau : Chứng_từ bán hàng , chứng_từ giảm_giá hàng bán , chứng_từ trả lại hàng mua : sau khi xoá hoá_đơn chương_trình sẽ tự_động sinh hoá_đơn thay_thế lập kèm với chứng_từ gốc .",B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
 Kế_toán cần sửa lại chứng_từ cho đúng và phát_hành lại hoá_đơn điện_tử .,O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Ví_dụ : Trường_hợp lập kèm với chứng_từ bán hàng :,O O O O O O O O O O
 Vào phân hệ Bán hàng \ tab Bán hàng .,O O O O O O O O O O
@@ -3226,7 +3226,7 @@ Hoá_đơn điều_chỉnh khi in ra sẽ có thêm thông_tin Điều_chỉnh c
 Đối_với hoá_đơn điện_tử theo nghị_định 123/2020/NĐ-CP.,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Xem hướng_dẫn chi_tiết tại đây,O O O O O
 "Trên giao_diện lập hoá_đơn điều_chỉnh , chương_trình cho_phép kế_toán khai_báo khoản chiết_khấu của từng vật_tư hàng_hoá , tương_tự như khi lập chứng_từ bán hàng .",O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O
-"Từ MISA SME 2022 - R21 , chương_trình cho_phép người dùng lập chứng_từ từ_hoá đơn điều_chỉnh , thuận_tiện cho việc hạch_toán , điều_chỉnh các nghiệp_vụ tăng / giảm_phát sinh .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"Từ MISA SME 2022 - R21 , chương_trình cho_phép người dùng lập chứng_từ từ hoá_đơn điều_chỉnh , thuận_tiện cho việc hạch_toán , điều_chỉnh các nghiệp_vụ tăng / giảm_phát sinh .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Tải hoá_đơn điện_tử đã phát_hành,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 Mô_tả nghiệp_vụ,O O
 Tải phim hướng_dẫn tại đây .,O O O O O O
@@ -3243,17 +3243,17 @@ Chọn mục Đã phát_hành : chương_trình lấy lên danh_sách các hoá_
 "( Hoặc có_thể chọn các mục chi_tiết như : Chưa gửi cho KH , Đang gửi cho KH , Gửi bị lỗi , Đã gửi HĐ cho KH chương_trình sẽ lấy lên các hoá_đơn điện_tử có trạng_thái tương_ứng ) .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 Thiết_lập điều_kiện lọc tìm hoá_đơn điện_tử cần tải về và nhấn Lấy dữ_liệu .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O
 "Chọn hoá_đơn trên danh_sách , sau đó nhấn Tải hoá_đơn điện_tử .",O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
-Chọn thư_mục lưu_hoá đơn được tải về .,O O O O O O O O
+Chọn thư_mục lưu hoá_đơn được tải về .,O O O O O O O O
 Có_thể xem trước nội_dung hoá_đơn trước khi tải về bằng cách nhấn Xem hoá_đơn .,O O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O
 Nhấn Thực_hiện .,O O O
-"Mở thư_mục lưu_hoá đơn tải về trên máy_tính , giải nén file để lấy thông_tin hoá_đơn điện_tử đã phát_hành cần lưu_trữ .",O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
+"Mở thư_mục lưu hoá_đơn tải về trên máy_tính , giải nén file để lấy thông_tin hoá_đơn điện_tử đã phát_hành cần lưu_trữ .",O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 Tải hàng_loạt hoá_đơn điện_tử,O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 "Vào phân hệ Hoá_đơn điện_tử , chọn tab Hoá_đơn điện_tử .",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Chọn mục Đã phát_hành,O O O O
 "( Hoặc có_thể chọn các mục chi_tiết như : Chưa gửi cho khách_hàng , Đang gửi cho khách_hàng , Gửi bị lỗi , Đã gửi hoá_đơn cho khách_hàng )",O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O
 Nhấn chuột phải tại màn_hình danh_sách và chọn Tải hoá_đơn điện_tử hàng_loạt .,O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 Thiết_lập điều_kiện tìm_kiếm các hoá_đơn điện_tử cần tải về .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
-Chọn thư_mục lưu_hoá đơn được tải về bằng cách nhấn vào biểu_tượng,O O O O O O O O O O O O
+Chọn thư_mục lưu hoá_đơn được tải về bằng cách nhấn vào biểu_tượng,O O O O O O O O O O O O
 Tích chọn các hoá_đơn cần tải về .,O O O B-VOUCHER_TYPE O O O O
 Có_thể xem trước nội_dung hoá_đơn trước khi tải về bằng cách nhấn Xem hoá_đơn hoặc nhấn Xem hoá_đơn đã chọn để xem trước nội_dung của tất_cả các hoá_đơn đã chọn cùng lúc .,O O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O O
 Đối_với hoá_đơn điện_tử theo Nghị_định 123/2020/NĐ-CP,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
@@ -3347,7 +3347,7 @@ Nhấn_Thêm mẫu .,O O O
 Thiết_lập lại Tiêu_đề email và Nội_dung chi_tiết của email theo nhu_cầu :,O O O O O O O O O O O O
 Với các thông_tin dạng Chữ ( text ) : Sửa lại theo nhu_cầu bằng cách gõ nội_dung mới hoặc xoá_bỏ nội_dung cũ .,O O O O O O O O O O O O O O O O O O O O O O O
 Với các thông_tin dạng Trường dữ_liệu thiết_lập lại như sau :,O O O O O O O O O O O
-"Lưu_ý : Trường dữ_liệu là các thông_tin do chương_trình tự sinh , các thông_tin này được lấy từ_hoá đơn , giấy_phép sử_dụng , danh_mục cơ_cấu tổ_chức , ...",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"Lưu_ý : Trường dữ_liệu là các thông_tin do chương_trình tự sinh , các thông_tin này được lấy từ hoá_đơn , giấy_phép sử_dụng , danh_mục cơ_cấu tổ_chức , ...",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Ví_dụ : Trường thông_tin ( # # AccountObjectName # # ) được lấy theo Tên khách_hàng trên hoá_đơn .,O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
 Tên khách_hàng trên hoá_đơn số 0000001 là Nguyễn_Văn_A ; Tên khách_hàng trên hoá_đơn số 0000002 là Nguyễn_Văn B.,O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O O O O O
 Khi gửi hoá_đơn số 01 cho khách_hàng thì trên email thông_tin # # AccountObjectName # # sẽ hiển_thị là Nguyễn_Văn_A ; Khi gửi hoá_đơn số 02 cho khách_hàng thì trên email thông_tin # # AccountObjectName # # sẽ hiển_thị là Nguyễn_Văn B.,O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O
@@ -3391,13 +3391,13 @@ Khai_báo hoá_đơn GTGT .,O B-VOUCHER_TYPE O O
 "Chương_trình sẽ tự_động lấy lên các thông_tin tương_ứng trên chứng_từ bán hàng , có_thể sửa lại các thông_tin này ( nếu cần ) .",O O O O O O O O O O O O O O O O O O O O O O O O
 Lưu_ý : Việc lập chứng_từ bán hàng sau khi lập hoá_đơn GTGT còn được thực_hiện bằng cách :,O O O O O O O O O O B-VOUCHER_TYPE B-TAX_TYPE O O O O O O
 Thêm mới một chứng_từ bán hàng không lập kèm hoá_đơn trên tab Bán hàng .,O O O O O O O O O B-VOUCHER_TYPE O O O O O
-Chọn lập chứng_từ bán hàng từ_hoá đơn .,O O O O O O O O
+Chọn lập chứng_từ bán hàng từ hoá_đơn .,O O O O O O O O
 Nhập_khẩu hàng_loạt hoá_đơn từ file Excel .,O O B-VOUCHER_TYPE O O O O
 Chọn nhập_khẩu Hoá_đơn bán hàng từ file Excel .,O O B-VOUCHER_TYPE O O O O O O
 Thực_hiện nhập_khẩu Hoá_đơn bán hàng vào phần_mềm tương_tự như hướng_dẫn tại đây .,O O B-VOUCHER_TYPE O O O O O O O O O O
 Lưu_ý : Cách điền thông_tin trên tệp Excel nhập_khẩu :,O O O O O O O O O O
 "Cột_Số thứ_tự là để chương_trình phân_biệt các hoá_đơn với nhau , trường_hợp một hoá_đơn có nhiều hàng_hoá thì cần nhập cùng một_số thứ_tự cho mỗi dòng hàng_hoá của hoá_đơn đó .",O O O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O B-VOUCHER_TYPE O O
-Không điền thông_tin vào cột : Mẫu_số hoá_đơn ; Ký_hiệu hoá_đơn ; Số_hoá đơn,O O O O O O O O O O O O O O
+Không điền thông_tin vào cột : Mẫu_số hoá_đơn ; Ký_hiệu hoá_đơn ; Số hoá_đơn,O O O O O O O O O O O O O O
 "Hoá_đơn sau khi nhập_khẩu sẽ hiển_thị tại tab Xuất hoá_đơn , phân hệ Bán hàng , tab Hoá_đơn điện_tử , phân hệ Hoá_đơn điện_tử .",B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Cho_phép phát_hành các hoá_đơn điện_tử đã được lập trên chương_trình , bao_gồm : Hoá_đơn bán hàng trong nước , Hoá_đơn bán hàng đại_lý bán đúng giá , Giảm_giá hàng bán , Trả lại hàng mua , phiếu xuất kho kiêm vận_chuyển hàng_hoá nội_bộ , phiếu xuất kho gửi bán hàng đại_lý .",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 Kế_toán có_thể phát_hành hoá_đơn điện_tử theo 1 trong 2 cách :,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
@@ -3408,7 +3408,7 @@ Vào phân hệ Hoá_đơn điện_tử .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Chọn mục Chưa phát_hành ( hoặc Phát_hành lỗi ) : chương_trình lấy lên danh_sách các hoá_đơn điện_tử ( là hoá_đơn có ký_hiệu cuối_cùng là "" E "" .",O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O O O O O
 Thiết_lập điều_kiện tìm_kiếm hoá_đơn điện_tử cần phát_hành .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 "Chọn hoá_đơn trên danh_sách , sau đó nhấn Phát_hành hoá_đơn điện_tử .",O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
-"Cấp số_hoá đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn muốn phát_hành .",O O O O O O O O O O O O O O O O O O O
+"Cấp số hoá_đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn muốn phát_hành .",O O O O O O O O O O O O O O O O O O O
 "Lưu_ý : Với các hoá_đơn đã được lập và cấp số trên phiên_bản R36 trở về trước , khi nâng_cấp lên phiên_bản mới , thì chương_trình sẽ hiển_thị Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn tương_ứng của hoá_đơn và không cho_phép sửa các thông_tin này .",O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O O O O O
 Tích chọn Gửi hoá_đơn cho khách_hàng : nếu muốn chương_trình tự_động gửi thông_tin về hoá_đơn điện_tử cho khách_hàng ngay sau khi thực_hiện chức_năng phát_hành hoá_đơn điện_tử .,O O O B-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Tên người nhận và Email :,O O O O O O
@@ -3424,7 +3424,7 @@ Trường_hợp sử_dụng chữ_ký số eSign với lần ký số đầu_ti�
 "Nếu tích chọn "" Ghi_nhớ mã xác_thực ( mã pin ) cho lần sau "" : Chỉ cần nhập mã xác_thực ở lần ký số đầu_tiên .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Nếu không tích chọn : chương_trình sẽ yêu_cầu nhập mã xác_thực mỗi lần thực_hiện ký số .,O O O O O O O O O O O O O O O O O
 Trường_hợp sử_dụng chữ_ký số HSM : Kiểm_tra lại thông_tin ký số và nhấn Đồng_ý .,O O O O O O O O O O O O O O O
-"Trường_hợp sử_dụng USB Token : Lựa_chọn chứng_thư số trên USB Token và nhấn OK , chương_trình đồng_thời cấp số_hoá đơn và phát_hành hoá_đơn điện_tử .",O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
+"Trường_hợp sử_dụng USB Token : Lựa_chọn chứng_thư số trên USB Token và nhấn OK , chương_trình đồng_thời cấp số hoá_đơn và phát_hành hoá_đơn điện_tử .",O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Phát_hành hoá_đơn điện_tử ngay sau khi lập xong hoá_đơn trên các phân hệ Bán hàng / Kho / Mua hàng .,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
 "Ví_dụ : Sau khi lập chứng_từ bán hàng kèm hoá_đơn ( loại hoá_đơn điện_tử ) , Kế_toán có_thể thực_hiện phát_hành hoá_đơn điện_tử bằng cách :",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Nhấn_Phát hành hoá_đơn điện_tử .,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
@@ -3438,10 +3438,10 @@ Có_thể thực_hiện phát_hành hàng_loạt hoá_đơn điện_tử theo 1 
 Cách 1 : Phát hàng hàng_loạt hoá_đơn điện_tử trên phân hệ Hoá_đơn điện_tử,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Nhấn vào chức_năng Phát_hành HĐ điện_tử hàng_loạt .,O O O O O O O O
 "Thiết_lập điều_kiện tìm_kiếm các hoá_đơn cần phát_hành , sau đó nhấn Lấy dữ_liệu .",O O O O B-VOUCHER_TYPE O O O O O O O O O
-Chương_trình sẽ lấy lên các hoá_đơn đã cấp số_hoá đơn và chưa cấp số_hoá đơn .,O O O O O B-VOUCHER_TYPE O O O O O O O O O O
+Chương_trình sẽ lấy lên các hoá_đơn đã cấp số hoá_đơn và chưa cấp số hoá_đơn .,O O O O O B-VOUCHER_TYPE O O O O O O O O O O
 "Tích chọn các hoá_đơn cần phát_hành , sau đó nhấn Tiếp_theo .",O O O B-VOUCHER_TYPE O O O O O O O O
-"Cấp số_hoá đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn cho từng hoá_đơn .",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
-"Sau đó , nhấn Cấp số_hoá đơn .",O O O O O O O O
+"Cấp số hoá_đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn cho từng hoá_đơn .",O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
+"Sau đó , nhấn Cấp số hoá_đơn .",O O O O O O O O
 "Với các hoá_đơn đã được lập và cấp số trên phiên_bản R36 trở về trước , khi nâng_cấp lên phiên_bản mới , thì chương_trình sẽ hiển_thị Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn tương_ứng của hoá_đơn và không cho_phép sửa các thông_tin này .",O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O O O O O
 "Kế_toán có_thể khai_báo nhanh các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn bằng cách chọn dòng hoá_đơn , nhấn chuột phải và chọn chức_năng Sao_chép dữ_liệu cho các dòng dưới .",O O O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O
 Nhấn_Tiếp theo .,O O O
@@ -3480,7 +3480,7 @@ Các mẫu hoá_đơn được lấy về từ meInvoice.vn sẽ không_thể s�
 "Sau khi lấy các mẫu hoá_đơn / thông_báo phát_hành hoá_đơn về MISA SME , nếu sửa lại các mẫu hoá_đơn / thông_báo phát_hành này trên meInvoice.vn thì có_thể cập_nhật các thay_đổi này lên MISA SME bằng cách thực_hiện lại chức_năng Lấy mẫu hoá_đơn , thông_báo phát_hành từ meInvoice.vn.",O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O
 Hướng_dẫn nghiệp_vụ hoá_đơn điện_tử,O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Gửi hoá_đơn cho khách_hàng,O B-VOUCHER_TYPE O O
-Chuyển_hoá đơn điện_tử thành hoá_đơn giấy,O O O O B-VOUCHER_TYPE O
+Chuyển hoá_đơn điện_tử thành hoá_đơn giấy,O O O O B-VOUCHER_TYPE O
 Xoá hoá_đơn và lập hoá_đơn thay_thế,O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
 Điều_chỉnh thông_tin hoá_đơn,O O B-VOUCHER_TYPE
 "Tra_cứu , tìm_kiếm hoá_đơn điện_tử",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
@@ -3490,7 +3490,7 @@ Tra_cứu trên phân hệ Hoá_đơn điện_tử,O O O O B-VOUCHER_TYPE I-VOUC
 "Có_thể xem danh_sách hoá_đơn theo tiêu_chí chương_trình thiết_lập sẵn như : Hoá_đơn chưa phát_hành , đang phát_hành , phát_hành lỗi , đã phát_hành ...",O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
 Hoặc có_thể nhập tiêu_chí tìm_kiếm hoá_đơn điện_tử :,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Tìm_kiếm theo thời_gian , loại chứng_từ , sau đó nhấn Lấy dữ_liệu .",O O O O O O O O O O O O O
-"Tìm_kiếm theo tiêu_chí bất_kỳ như : Ngày hoá_đơn , số_hoá đơn , trạng_thái phát_hành , trạng_thái gửi hoá_đơn cho khách_hàng , ...",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O
+"Tìm_kiếm theo tiêu_chí bất_kỳ như : Ngày hoá_đơn , số hoá_đơn , trạng_thái phát_hành , trạng_thái gửi hoá_đơn cho khách_hàng , ...",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O
 "Có_thể xem nhanh nội_dung hoá_đơn bằng cách chọn hoá_đơn cần xem trên danh_sách và nhấn chọn chức_năng Xem hoá_đơn , kế_toán ấn vào biểu_tượng mũi_tên để chọn xem mẫu hoá_đơn tương_ứng .",O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE O O
 Tra_cứu trên phân hệ Bán hàng / Kho,O O O O O O O O
 "Kế_toán có_thể dễ_dàng biết được trạng_thái của hoá_đơn điện_tử : đã phát_hành chưa , đã gửi cho khách_hàng chưa , khách_hàng đã nhận được hoá_đơn chưa , là hoá_đơn gốc , hoá_đơn thay_thế hay hoá_đơn xoá_bỏ để dễ_dàng quản_lý tình_hình phát_hành hoá_đơn điện_tử , ...",O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
@@ -3608,7 +3608,7 @@ Xoá_bỏ hoá_đơn chờ phát_hành,O B-VOUCHER_TYPE O O
 Xoá hoá_đơn và lập hoá_đơn thay_thế,O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
 Lập và phát_hành hoá_đơn điều_chỉnh,O O O B-VOUCHER_TYPE O
 Giúp kết_nối phần_mềm SME với dịch_vụ hoá_đơn điện_tử EasyInvoice ( hoá_đơn điện_tử áp_dụng theo Nghị_định 51/2010/NĐ-CP),O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
-"Lưu_ý : Thực_hiện trên EasyInvoice các nghiệp_vụ hoá_đơn điện_tử khác như : Chuyển_hoá đơn điện_tử thành hoá_đơn giấy , gửi hoá_đơn cho khách_hàng , tải hoá_đơn đã phát_hành …",O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O
+"Lưu_ý : Thực_hiện trên EasyInvoice các nghiệp_vụ hoá_đơn điện_tử khác như : Chuyển hoá_đơn điện_tử thành hoá_đơn giấy , gửi hoá_đơn cho khách_hàng , tải hoá_đơn đã phát_hành …",O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O
 Lưu_ý : Phải thực_hiện kết_nối cho từng dữ_liệu kế_toán và từng chi_nhánh làm_việc .,O O O O O O O O O O O O O O
 "Vào phân hệ Hoá_đơn điện_tử , chọn Kết_nối phần_mềm hoá_đơn điện_tử khác .",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 Chọn phần_mềm EasyInvoice .,O O O O
@@ -3620,9 +3620,9 @@ Thiết_lập cách_thức kết_nối EasyInvoice :,O O O O O
 "Nếu đang làm_việc tại Tổng_công_ty : có_thể chọn các Chi_nhánh kết_nối , khi đó các chi_nhánh được chọn sẽ không cần thực_hiện bước Thiết_lập kết_nối EasyInvoice mà lấy theo thiết_lập tại đây .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Chọn_Hình thức gửi hoá_đơn lên EasyInvoice,O O O B-VOUCHER_TYPE O O
 Chọn cách_thức Lập hoá_đơn :,O O O B-VOUCHER_TYPE O
-Không cho_phép nhập số_hoá đơn bằng tay :,O O O O O O O O
-"Nếu tích chọn : thì khi lập hoá_đơn trên MISA SME.NET , chương_trình không cho_phép nhập liệu vào ô Số_hoá đơn mà tự_động cập_nhật theo Số_hoá đơn phát_hành trên EasyInvoice .",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O
-Nếu không tích chọn : Có_thể nhập liệu vào ô Số_hoá đơn .,O O O O O O O O O O O O O
+Không cho_phép nhập số hoá_đơn bằng tay :,O O O O O O O O
+"Nếu tích chọn : thì khi lập hoá_đơn trên MISA SME.NET , chương_trình không cho_phép nhập liệu vào ô Số hoá_đơn mà tự_động cập_nhật theo Số hoá_đơn phát_hành trên EasyInvoice .",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O
+Nếu không tích chọn : Có_thể nhập liệu vào ô Số hoá_đơn .,O O O O O O O O O O O O O
 "Quản_lý phiếu xuất kho kiêm vận_chuyển nội_bộ , phiếu xuất kho gửi bán đại_lý giống hoá_đơn :",O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O
 Nếu tích chọn : Có_thể gửi phiếu xuất kho kiêm vận_chuyển nội_bộ / gửi bán đại_lý lên EasyInvoice để phát_hành như hoá_đơn .,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O B-VOUCHER_TYPE O
 Nếu không tích chọn : Phiếu xuất kho kiêm vận_chuyển nội_bộ / gửi bán đại_lý được quản_lý như phiếu xuất kho thông_thường .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O
@@ -3646,8 +3646,8 @@ Lập hoá_đơn cùng chứng_từ chuyển kho kiêm vận_chuyển nội_bộ
 Lập hoá_đơn cùng chứng_từ chuyển kho gửi bán đại_lý,O B-VOUCHER_TYPE O O O O O O O
 Phát_hành hoá_đơn trên EasyInvoice,O B-VOUCHER_TYPE O O
 Đăng_nhập vào phần_mềm EasyInvoice để phát_hành hoá_đơn được gửi từ MISA SME.NET sang .,O O O O O O B-VOUCHER_TYPE O O O O O O O
-Cập_nhật số_hoá đơn / Số chứng_từ ( với PXK ) và trạng_thái phát_hành hoá_đơn về MISA SME.NET,O O O O O O O O O O O O O B-VOUCHER_TYPE O O O
-Chương_trình tự_động cập_nhật Số_hoá đơn / Trạng_thái phát_hành hoá_đơn về MISA SME.NET với tần_suất 15 phút / lần,O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O
+Cập_nhật số hoá_đơn / Số chứng_từ ( với PXK ) và trạng_thái phát_hành hoá_đơn về MISA SME.NET,O O O O O O O O O O O O O B-VOUCHER_TYPE O O O
+Chương_trình tự_động cập_nhật Số hoá_đơn / Trạng_thái phát_hành hoá_đơn về MISA SME.NET với tần_suất 15 phút / lần,O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O
 Nếu muốn cập_nhật về ngay thì vào danh_sách Xuất hoá_đơn hoặc danh_sách Chứng_từ chuyển kho để cập_nhật .,O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O
 Xoá hoá_đơn chờ duyệt trên EasyInvoice,O B-VOUCHER_TYPE O O O O
 Hướng_dẫn xoá_bỏ các hoá_đơn áp_dụng theo Nghị_định 51/2010/NĐ-CP đã gửi lên EasyInvoice nhưng chưa phát_hành .,O O O B-VOUCHER_TYPE O O O O O O O O O O O O
@@ -3663,7 +3663,7 @@ Hoá_đơn thay_thế lập trên EasyInvoice sẽ không được cập_nhật 
 "Nếu hoá_đơn bị xoá là hoá_đơn lập kèm với chứng_từ bán hàng , chứng_từ giảm_giá hàng bán , chứng_từ trả lại hàng mua , thực_hiện xoá chứng_từ trên phần_mềm kế_toán .",O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O
 "Nếu hoá_đơn bị xoá là hoá_đơn độc_lập , không cần xử_lý gì .",O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O
 Trường_hợp : Trên EasyInvoice xoá hoá_đơn và lập hoá_đơn thay_thế .,O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O
-"Nếu hoá_đơn bị xoá là hoá_đơn đi kèm với chứng_từ bán hàng , chứng_từ giảm_giá hàng bán , chứng_từ trả lại hàng mua = > Sửa lại Chứng_từ dưới SME theo thông_tin của hoá_đơn thay_thế phát_hành trên EasyInvoice ( Lưu_ý : Cần_thiết lập cho_phép nhập số_hoá đơn bằng tay để nhập được số_hoá đơn thay_thế )",O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O
+"Nếu hoá_đơn bị xoá là hoá_đơn đi kèm với chứng_từ bán hàng , chứng_từ giảm_giá hàng bán , chứng_từ trả lại hàng mua = > Sửa lại Chứng_từ dưới SME theo thông_tin của hoá_đơn thay_thế phát_hành trên EasyInvoice ( Lưu_ý : Cần_thiết lập cho_phép nhập số hoá_đơn bằng tay để nhập được số hoá_đơn thay_thế )",O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O
 "Nếu hoá_đơn bị xoá là hoá_đơn độc_lập , lập bổ_sung hoá_đơn thay_thế dưới SME .",O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O
 Lập và phát_hành hoá_đơn điều_chỉnh EasyInvoice,O O O B-VOUCHER_TYPE O O
 Bước 1 : Lập hoá_đơn trên MISA SME.NET,O O O O B-VOUCHER_TYPE O O O
@@ -3686,7 +3686,7 @@ Giúp_Khách hàng sử_dụng phần_mềm Kế_toán SME có_thể phát_hành
 Kết_nối dịch_vụ hoá_đơn điện_tử SInvoice,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Thiết_lập kết_nối SInvoice,O O O
 Thu_hồi hoá_đơn chờ phát_hành,O B-VOUCHER_TYPE O O
-"Thực_hiện trên SInvoice các nghiệp_vụ hoá_đơn điện_tử khác như : Chuyển_hoá đơn điện_tử thành hoá_đơn giấy , gửi hoá_đơn cho khách_hàng , tải hoá_đơn đã phát_hành ...",O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O
+"Thực_hiện trên SInvoice các nghiệp_vụ hoá_đơn điện_tử khác như : Chuyển hoá_đơn điện_tử thành hoá_đơn giấy , gửi hoá_đơn cho khách_hàng , tải hoá_đơn đã phát_hành ...",O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O
 "Chỉ đáp_ứng kết_nối hệ_thống SInvoice V2 , Khách_hàng đang sử_dụng SInvoice V1 cần liên_hệ với Viettel để được hướng_dẫn nâng_cấp lên hệ_thống SInvoice V2",O O O O O O O O O O O O O O O O O O O O O O O O
 Khách_hàng xác_định phiên_bản SInvoice đang sử_dụng thông_qua Domain đăng_nhập :,O O O O O O O O O O
 Hệ_thống SInvoice_V 1 : sinvoice.viettel.vn/account/login,O O O O O
@@ -3700,7 +3700,7 @@ Giúp thiết_lập cách_thức lập và gửi hoá_đơn áp_dụng theo Ngh�
 Thiết_lập cách_thức kết_nối Sinvoice :,O O O O O
 "Nếu đang làm_việc tại Tổng_công_ty : có_thể chọn các Chi_nhánh kết_nối , khi đó các chi_nhánh được chọn sẽ không cần thực_hiện bước Thiết_lập kết_nối Sinvoice mà lấy theo thiết_lập tại đây .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Chọn_Hình thức gửi hoá_đơn lên Sinvoice,O O O B-VOUCHER_TYPE O O
-"Nếu tích chọn : thì khi lập hoá_đơn trên MISA SME.NET , chương_trình không cho_phép nhập liệu vào ô Số_hoá đơn mà tự_động cập_nhật theo Số_hoá đơn phát_hành trên Sinvoice .",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O
+"Nếu tích chọn : thì khi lập hoá_đơn trên MISA SME.NET , chương_trình không cho_phép nhập liệu vào ô Số hoá_đơn mà tự_động cập_nhật theo Số hoá_đơn phát_hành trên Sinvoice .",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O
 "( Tuỳ chọn này được áp_dụng trong trường_hợp đơn_vị có nhu_cầu phát_hành hoá_đơn trên Sinvoice trước_sau đó mới lập hoá_đơn trên SME để kê_khai , hạch_toán )",O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE O O O O O O O
 Nếu tích chọn : Có_thể gửi phiếu xuất kho kiêm vận_chuyển nội_bộ / gửi bán đại_lý lên Sinvoice để phát_hành như hoá_đơn .,O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
 Chọn_Loại tiền trên hoá_đơn :,O O O B-VOUCHER_TYPE O
@@ -3721,15 +3721,15 @@ Bước 1 : Lập hoá_đơn thay_thế trên SME,O O O O B-VOUCHER_TYPE O O O
 "Trên danh_sách hoá_đơn , chọn hoá_đơn gốc cần lập hoá_đơn thay_thế",O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O
 "Hoặc mở hoá_đơn lên , vào Tiện íchLập hoá_đơn thay_thế",O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O
 Chương_trình hiển_thị Hoá_đơn thay_thế có nội_dung giống Hoá_đơn gốc .,O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O
-"Trong đó mục "" Số_Hoá đơn "" bỏ trống , tại tab Khác : Đánh_dấu thay_thế cho hoá_đơn gốc .",O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O
+"Trong đó mục "" Số hoá_đơn "" bỏ trống , tại tab Khác : Đánh_dấu thay_thế cho hoá_đơn gốc .",O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O
 Sửa lại thông_tin sai trên Chứng_từ / Hoá_đơn .,O O O O O O O B-VOUCHER_TYPE O
 Nhấn_Cất .,O O
 Chương_trình sẽ tự_động gửi hoá_đơn lên SInvoice .,O O O O B-VOUCHER_TYPE O O O
 "Lưu_ý : Sau khi gửi hoá_đơn thay_thế lên SInvoice , nếu chưa phát_hành hoá_đơn thì dưới SME hoá_đơn gốc sẽ có trạng_thái là Tạm xoá .",O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O
 Phát_hành hoá_đơn trên SInvoice,O B-VOUCHER_TYPE O O
 Đăng_nhập vào phần_mềm SInvoice để phát_hành hoá_đơn thay_thế được gửi từ SME sang .,O O O O O O B-VOUCHER_TYPE O O O O O O O
-Cập_nhật số_hoá đơn / trạng_thái hoá_đơn về SME,O O O O O B-VOUCHER_TYPE O O
-Chương_trình tự_động cập_nhật Số_hoá đơn thay_thế / Trạng_thái xoá_bỏ hoá_đơn gốc và Trạng_thái phát_hành hoá_đơn thay_thế về MISA SME.NET với tần_suất 15 phút / lần,O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O O O O O O O
+Cập_nhật số hoá_đơn / trạng_thái hoá_đơn về SME,O O O O O B-VOUCHER_TYPE O O
+Chương_trình tự_động cập_nhật Số hoá_đơn thay_thế / Trạng_thái xoá_bỏ hoá_đơn gốc và Trạng_thái phát_hành hoá_đơn thay_thế về MISA SME.NET với tần_suất 15 phút / lần,O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O O O O O O O O
 Lưu_ý,O
 Hoá_đơn gốc đã bị xoá_bỏ trên SInvoice thì không_thể lập được hoá_đơn thay_thế .,B-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE O O
 Nếu không có mạng internet thì khi Cất hoá_đơn thay_thế dưới SME chương_trình sẽ hiển_thị cảnh_báo và không cho cất .,O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
@@ -3739,7 +3739,7 @@ Nếu không có mạng internet thì khi Cất hoá_đơn thay_thế dưới SM
 Kế_toán phải tự_lập bổ_sung như sau :,O O O O O O O
 "Nếu hoá_đơn bị thay_thế là hoá_đơn đi kèm với chứng_từ bán hàng , chứng_từ giảm_giá hàng bán , chứng_từ trả lại hàng mua .",O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O
 Cần sửa lại Chứng_từ dưới SME theo thông_tin của hoá_đơn thay_thế phát_hành trên SInvoice .,O O O O O O O O O B-VOUCHER_TYPE O O O O O
-( Lưu_ý : Cần_thiết lập cho_phép nhập số_hoá đơn bằng tay để nhập được số_hoá đơn thay_thế ),O O O O O O O O O O O O O O O O O O
+( Lưu_ý : Cần_thiết lập cho_phép nhập số hoá_đơn bằng tay để nhập được số hoá_đơn thay_thế ),O O O O O O O O O O O O O O O O O O
 "Nếu hoá_đơn bị thay_thế là hoá_đơn độc_lập , cần lập bổ_sung hoá_đơn thay_thế dưới SME .",O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O
 Hoá_đơn thay_thế tự_lập dưới SME sẽ không cập_nhật được trạng_thái Đã phát_hành trên Sinvoice,B-VOUCHER_TYPE O O O O O O O O O O O O O
 Lập và phát_hành hoá_đơn điều_chỉnh SInvoice,O O O B-VOUCHER_TYPE O O
@@ -3749,19 +3749,19 @@ Gửi hoá_đơn lên SInvoice :,O B-VOUCHER_TYPE O O O
 Trường_hợp thiết_lập gửi hoá_đơn Tự_động : Chương_trình tự_động gửi hoá_đơn lên SInvoice ngay sau khi cất Hoá_đơn .,O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE O
 Trường_hợp thiết_lập gửi hoá_đơn Thủ_công : Nhấn_Gửi_HĐ lên PM hoá_đơn điện_tử .,O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Đăng_nhập vào phần_mềm SInvoice để phát_hành hoá_đơn điều_chỉnh được gửi từ MISA SME.NET sang .,O O O O O O B-VOUCHER_TYPE O O O O O O O O
-Cập_nhật số_hoá đơn / Số chứng_từ ( với Phiếu xuất kho ) và trạng_thái phát_hành hoá_đơn về MISA SME.NET,O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O
+Cập_nhật số hoá_đơn / Số chứng_từ ( với Phiếu xuất kho ) và trạng_thái phát_hành hoá_đơn về MISA SME.NET,O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O O O
 Có_thể Sửa / Xoá hoá_đơn và gửi lên SInvoice phát_hành lại,O O O O B-VOUCHER_TYPE O O O O O O
 Xoá hoá_đơn và lập hoá_đơn thay_thế .,O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O O
 Lập hoá_đơn thay_thế trên SME,O B-VOUCHER_TYPE O O O
-"Trong đó mục "" Số_Hoá đơn "" bỏ trống , tại tab "" Khác "" đánh_dấu thay_thế cho hoá_đơn gốc .",O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O
+"Trong đó mục "" Số hoá_đơn "" bỏ trống , tại tab "" Khác "" đánh_dấu thay_thế cho hoá_đơn gốc .",O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O
 Phát_hành hoá_đơn trên SInvoice .,O B-VOUCHER_TYPE O O O
-Cập_nhật số_hoá đơn / trạng_thái hoá_đơn về SME .,O O O O O B-VOUCHER_TYPE O O O
+Cập_nhật số hoá_đơn / trạng_thái hoá_đơn về SME .,O O O O O B-VOUCHER_TYPE O O O
 ( Có_thể lập nhanh bằng cách nhập_khẩu hoá_đơn đã lưu hoặc copy cột dữ_liệu từ file Excel vào phần_mềm ),O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
 Nếu hoá_đơn bị thay_thế là hoá_đơn độc_lập .,O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O
 Cần lập bổ_sung hoá_đơn thay_thế dưới SME,O O O B-VOUCHER_TYPE O O O
 Hoá_đơn thay_thế tự_lập dưới SME sẽ không cập_nhật được trạng_thái Đã phát_hành trên Sinvoice .,B-VOUCHER_TYPE O O O O O O O O O O O O O O
-Cập_nhật số_hoá đơn / Số chứng_từ ( với PXK ) và trạng_thái phát_hành hoá_đơn về MISA SME.NET .,O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O
-Chương_trình tự_động cập_nhật Số_hoá đơn / Trạng_thái phát_hành hoá_đơn về MISA SME.NET với tần_suất 15 phút / lần .,O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O
+Cập_nhật số hoá_đơn / Số chứng_từ ( với PXK ) và trạng_thái phát_hành hoá_đơn về MISA SME.NET .,O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O
+Chương_trình tự_động cập_nhật Số hoá_đơn / Trạng_thái phát_hành hoá_đơn về MISA SME.NET với tần_suất 15 phút / lần .,O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O
 Lấy dữ_liệu hoá_đơn điện_tử theo nghị_định 123/2020/NĐ-CP từ meInvoice về MISA SME để quản_lý và hạch_toán .,O O B-VOUCHER_TYPE O O O O O O O O O O O O O O
 "Phần_mềm đáp_ứng lấy dữ_liệu hoá_đơn điện_tử theo nghị_định 123/2020/NĐ-CP từ meInvoice về SME để hạch_toán ghi_nhận doanh_thu , lập hoá_đơn cho hoá_đơn điều_chỉnh / thay_thế .",O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O B-VOUCHER_TYPE
 "Sau khi kết_nối tài_khoản meInvoice , tại phân hệ Bán hàng \ tab Đề_nghị ghi_nhận doanh_thu , tích chọn lấy hoá_đơn theo NĐ123 và nhấn Lấy dữ_liệu từ MISA meInvoice .",O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O
@@ -3791,7 +3791,7 @@ Gửi hoá_đơn nháp cho khách_hàng,O B-VOUCHER_TYPE O O O
 Lập và phát_hành phiếu xuất kho điện_tử,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O
 Gửi hoá_đơn cho khách_hàng,O B-VOUCHER_TYPE O O
 Tải hoá_đơn điện_tử đã phát_hành,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
-Chuyển_hoá đơn điện_tử thành hoá_đơn giấy,B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE O
+Chuyển hoá_đơn điện_tử thành hoá_đơn giấy,B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE O
 Xử_lý hoá_đơn sai_sót,O B-VOUCHER_TYPE O
 Tra_cứu thông_điệp truyền nhận dữ_liệu hoá_đơn điện_tử với cơ_quan thuế,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Các nghiệp_vụ hoá_đơn điện_tử đối_với các doanh_nghiệp thuộc lĩnh_vực xăng_dầu,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
@@ -3885,7 +3885,7 @@ Ví_dụ thể_hiện các ký_tự của ký_hiệu mẫu hoá_đơn điện_t�
 """ 6 K 22 BAB "" - là phiếu xuất kho hàng gửi bán đại_lý điện_tử loại không có mã được lập năm 2022 do doanh_nghiệp đăng_ký với cơ_quan thuế .",O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-DATE I-DATE O O O O O O O
 "Như_vậy , theo quy_định tại nghị_định 123/2020/NĐ-CP: Tại bản thể_hiện , ký_hiệu hoá_đơn điện_tử và ký_hiệu mẫu_số hoá_đơn điện_tử được thể_hiện chung bằng 1 chuỗi bao_gồm 7 ký_tự .",O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 Quy_định về cách đánh_số hoá_đơn,O O O O B-VOUCHER_TYPE
-Số_hoá đơn gồm 8 chữ_số .,O O O O O O
+Số hoá_đơn gồm 8 chữ_số .,O O O O O O
 Không phải thông_báo phát_hành số_lượng hoá_đơn Từ số …,O O O O O B-VOUCHER_TYPE O O O
 Phương_thức chuyển dữ_liệu hoá_đơn điện_tử đến cơ_quan thuế,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Đối_với đơn_vị sử_dụng hình_thức hoá_đơn không có mã,O O O O B-VOUCHER_TYPE O O O
@@ -3901,7 +3901,7 @@ Quy_trình nghiệp_vụ hoá_đơn điện_tử có mã của Cơ_quan thuế,O
 Quy_trình nghiệp_vụ hoá_đơn điện_tử không có mã của Cơ_quan thuế,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 Bắt_đầu sử_dụng hoá_đơn điện_tử theo Nghị_định 123/2020/NĐ-CP,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Bắt_đầu sử_dụng hoá_đơn điện_tử theo Nghị_định 123/2020/NĐ-CP đối_với doanh_nghiệp mới thành_lập,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O
-Chuyển_đổi từ_hoá đơn giấy sang sử_dụng hoá_đơn điện_tử theo nghị_định 123/2020/NĐ-CP,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
+Chuyển_đổi từ hoá_đơn giấy sang sử_dụng hoá_đơn điện_tử theo nghị_định 123/2020/NĐ-CP,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 "Để lập và phát_hành hoá_đơn điện_tử theo NĐ123 , TT78 trên MISA SME , người dùng cần xác_định hình_thức hoá_đơn doanh_nghiệp sử_dụng là "" có mã "" hay "" không có mã "" .",O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O
 Xem chi_tiết đối_tượng áp_dụng với từng hình_thức hoá_đơn tại đây .,O O O O O O O B-VOUCHER_TYPE O O O
 "( Đơn_vị cũng có_thể xác_định dựa vào thông_báo của Chi_cục thuế , gửi qua email ) .",O O O O O O O O O O O O O O O O O
@@ -3942,7 +3942,7 @@ Hướng_dẫn trên phần_mềm,O O O
 "( Lưu_ý : Đơn_vị cũng có_thể xác_định dựa vào thông_báo của Chi_cục thuế , gửi qua email ) .",O O O O O O O O O O O O O O O O O O O
 "Đơn_vị chưa có Tài_khoản meInvoice - Phần_mềm hoá_đơn điện_tử , có_thể đăng_ký mua ngay tại Hoá_đơn điện_tử \ Kết_nối phần_mềm hoá_đơn điện_tử .",O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Xem hướng_dẫn chi_tiết Tại đây,O O O O O
-Chuyển_đổi từ_hoá đơn điện_tử theo Nghị_định 51/2010/NĐ-CP sang hoá_đơn điện_tử theo Nghị_định 123/2020/NĐ-CP trên meInvoice Web,O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
+Chuyển_đổi từ hoá_đơn điện_tử theo Nghị_định 51/2010/NĐ-CP sang hoá_đơn điện_tử theo Nghị_định 123/2020/NĐ-CP trên meInvoice Web,O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 "Đơn_vị mới đăng_ký hay đơn_vị đã có tài_khoản đăng_nhập trên meInvoice.vn , đều cần thực_hiện thao_tác chuyển_đổi từ giao_diện làm_việc NĐ51 sang giao_diện làm_việc mới để sử_dụng được hoá_đơn điện_tử theo NĐ 123 .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 Xem hướng_dẫn chi_tiết tại đây .,O O O O O O
 Lập hồ_sơ huỷ hoá_đơn điện_tử theo Nghị_định 51/2010/NĐ-CP đã thông_báo phát_hành nhưng chưa sử_dụng .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
