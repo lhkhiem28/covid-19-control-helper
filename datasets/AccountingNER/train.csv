@@ -1138,7 +1138,7 @@ Kế_toán thanh_toán tiền_mặt sẽ lập Phiếu thu .,O O O O O B-VOUCHER
 Kế_toán thanh_toán tiền_mặt căn_cứ vào Phiếu thu có chữ_ký của thủ_quỹ và người nộp tiền để ghi số kể toán tiền_mặt .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Chọn chức_năng In trên thanh công_cụ , sau đó chọn mẫu phiếu thu cần in .",O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 "Trường_hợp Thủ_quỹ có tham_gia sử_dụng phần_mềm , sau khi phiếu thu rút_tiền gửi ngân_hàng về nhập quỹ tiền_mặt được lập , chương_trình sẽ tự_động sinh ra phiếu thu trên tab Đề_nghị thu , chi của Thủ_quỹ .",O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
-Thủ_quỹ sẽ thực_hiện ghi sổ phiếu thu vào_sổ quỹ .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
+Thủ_quỹ sẽ thực_hiện ghi sổ phiếu thu vào sổ quỹ .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Nợ_TK 111 Tiền_mặt ( 1111 , 1112 )",O B-ACCOUNT_NUMBER B-ACCOUNT_NAME O B-ACCOUNT_NUMBER O B-ACCOUNT_NUMBER O
 Có TK 131 Phải thu của khách_hàng,O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME
 "Sau khi nhận được tiền ứng trước của khách_hàng , nhân_viên sẽ yêu_cầu kế_toán thanh_toán lập Phiếu thu .",O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
@@ -1194,7 +1194,7 @@ Kế_toán thanh_toán ngân_hàng nhận tiền từ thủ_quỹ để ra ngân
 Còn thanh_toán kế_toán tiền_mặt sẽ căn_cứ vào Phiếu chi có chữ_ký của thủ .,O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 "Chọn chức_năng In trên thanh công_cụ , sau đó chọn mẫu phiếu chi cần in .",O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 "Trường_hợp Thủ_quỹ có tham_gia sử_dụng phần_mềm , sau khi phiếu chi nộp tiền vào ngân_hàng được lập , chương_trình sẽ tự_động sinh ra phiếu chi trên tab Đề_nghị thu , chi của Thủ_quỹ .",O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
-Thủ_quỹ sẽ thực_hiện ghi sổ phiếu chi vào_sổ quỹ .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
+Thủ_quỹ sẽ thực_hiện ghi sổ phiếu chi vào sổ quỹ .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 Định khoản : Nợ_TK 331 Phải trả cho người bán,O O O O B-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME
 "Căn_cứ vào hợp_đồng mua hàng , trên đó yêu_cầu công_ty phải trả trước tiền mua hàng , nhân_viên mua hàng sẽ yêu_cầu chi tiền .",O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O
 "Kế_toán thanh_toán lập Phiếu chi , sau đó chuyển cho Kế_toán_trưởng và Giám_đốc ký duyệt .",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O
@@ -1283,7 +1283,7 @@ Chọn_Năm : là năm tính thuế TNDN ( Ví_dụ : Tháng 01/2020 nộp thu�
 Tại tab Hạch_toán : Nhập số tiền nộp thuế tạm tính vào cột Số tiền .,O O O O O O O O O O O O O O O O
 Nhấn_Cất .,O O
 "Lưu_ý : Trường_hợp Thủ_quỹ có tham_gia sử_dụng phần_mềm , sau khi phiếu chi_trả tiền cho nhà_cung_cấp được lập , chương_trình sẽ tự_động sinh ra phiếu chi trên tab Đề_nghị thu , chi của Thủ_quỹ .",O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
-Thủ_quỹ sẽ thực_hiện ghi sổ phiếu chi vào_sổ quỹ .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
+Thủ_quỹ sẽ thực_hiện ghi sổ phiếu chi vào sổ quỹ .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 Nộp bảo_hiểm bằng tiền_mặt,O O O O
 Định khoản : Nợ_TK 3382 Kinh_phí công_đoàn,O O O O B-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME
 Nợ_TK 3383 Bảo_hiểm_xã_hội,O B-ACCOUNT_NUMBER B-ACCOUNT_NAME
@@ -1504,7 +1504,7 @@ Nợ_TK 341 Vay và nợ thuê tài_chính,O B-ACCOUNT_NUMBER B-ACCOUNT_NAME I-A
 Khi công_ty phát_sinh các nghiệp_vụ nộp trả các khoản vay thông_qua tài_khoản ngân_hàng thường phát_sinh các hoạt_động sau :,O O O O O O O O O O O O O O O O O O O
 Ngân_hàng sẽ căn_cứ vào số tiền vay chuyển trả từ tài_khoản của công_ty để lập giấy_báo Nợ xác_nhận tiền đã được chuyển .,O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 "Hàng ngày kế_toán thanh_toán sẽ ra ngân_hàng để lấy sổ phụ ngân_hàng ( bảng sao kê các giao_dịch , giấy_báo Nợ , giấy_báo Có ) .",O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
-"Căn_cứ vào giấy_báo Nợ , kế_toán thanh_toán hạch_toán ghi_nhận khoản vay đã được trả vào_sổ kế_toán , đồng_thời ghi sổ tiền gửi ngân_hàng .",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O
+"Căn_cứ vào giấy_báo Nợ , kế_toán thanh_toán hạch_toán ghi_nhận khoản vay đã được trả vào sổ kế_toán , đồng_thời ghi sổ tiền gửi ngân_hàng .",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Nghiệp_vụ "" Trả các khoản vay thông_qua tài_khoản ngân_hàng "" được thực_hiện trên phần_mềm như sau :",O O O O O O O O O O O O O O O O O
 Chọn nội_dung thanh_toán là Trả các khoản vay .,O O O O O O O O O
 Chi khác bằng tiền gửi ngân_hàng,O O O B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME
@@ -1803,7 +1803,7 @@ Xác_nhận lập chứng_từ mua hàng có nhận kèm hoá_đơn hay không h
 "Chọn chức_năng In trên thanh công_cụ , sau đó chọn mẫu chứng_từ cần in .",O O O O O O O O O O O O O O O
 Lưu_ý :,O O
 "Trường_hợp Thủ_kho có tham_gia sử_dụng phần_mềm , sau khi chứng_từ mua hàng trong nước nhập kho được lập , chương_trình sẽ tự_động sinh ra phiếu nhập kho trên tab Đề_nghị nhập , xuất kho của Thủ_kho .",O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
-Thủ_kho sẽ thực_hiện ghi sổ phiếu nhập kho vào_sổ kho .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O
+Thủ_kho sẽ thực_hiện ghi sổ phiếu nhập kho vào sổ kho .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Nếu chứng_từ mua hàng lựa_chọn phương_thức Thanh_toán ngay , hệ_thống sẽ căn_cứ vào hình_thức thanh_toán là tiền_mặt , uỷ_nhiệm chi , séc chuyển_khoản hay séc tiền_mặt mà tự_động sinh ra các chứng_từ chi tiền_mặt hoặc chi tiền gửi ngân_hàng trên phân hệ Quỹ hoặc Ngân_hàng .",O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O
 "Đối_với trường_hợp mua hàng đã nhận được hoá_đơn của nhà_cung_cấp , khi lập chứng_từ mua hàng kế_toán sẽ chọn giá_trị là Nhận kèm hoá_đơn .",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
 Đồng_thời khai_báo thông_tin về hoá_đơn mua hàng trên tab Hoá_đơn .,O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O
@@ -1880,7 +1880,7 @@ Lưu_ý : Chương_trình đáp_ứng các trường nhập thông_tin thuế ch
 "Kết chuyển chi_phí mua hàng ( chi_phí trước hải_quan , chi_phí hàng về kho ) vào giá mua hàng_hoá",O O O O O O O O O O O O O O O O O O O
 "Vào phân hệ Tổng_hợp , chọn Chứng_từ nghiệp_vụ khác .",O O O O O O O O O O
 Hạch_toán bút_toán kết chuyển chi_phí mua hàng vào giá mua hàng_hoá .,O O O O O O O O O O O O
-"Nếu không theo_dõi chi_phí mua hàng trên_tài khoản 1562 thì tại bước 1 , bước 2 , có_thể hạch_toán trực_tiếp chi_phí mua hàng vào tài_khoản 1561 và bỏ_qua bước 4 : Kết chuyển chi_phí mua hàng vào giá mua hàng_hoá .",O O O O O O O O B-ACCOUNT_NUMBER O O O O O O O O O O O O O O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O O O O O O O O O O O O O O
+"Nếu không theo_dõi chi_phí mua hàng trên tài_khoản 1562 thì tại bước 1 , bước 2 , có_thể hạch_toán trực_tiếp chi_phí mua hàng vào tài_khoản 1561 và bỏ_qua bước 4 : Kết chuyển chi_phí mua hàng vào giá mua hàng_hoá .",O O O O O O O O B-ACCOUNT_NUMBER O O O O O O O O O O O O O O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O O O O O O O O O O O O O O
 "Trường_hợp Thủ_kho có tham_gia sử_dụng phần_mềm , sau khi chứng_từ mua hàng nhập_khẩu nhập kho được lập , chương_trình sẽ tự_động sinh ra phiếu nhập kho trên tab Đề_nghị nhập , xuất kho của Thủ_kho .",O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
 Mua hàng nhập_khẩu không qua kho,O O O O O O
 "Trường_hợp nguyên_vật_liệu , hàng_hoá nhập_khẩu về sử_dụng ngay ( không qua nhập kho ) cho hoạt_động sản_xuất , kinh_doanh hàng_hoá , dịch_vụ thuộc đối_tượng chịu thuế GTGT tính theo phương_pháp khấu_trừ :",O O O O O O O O O O O O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O
@@ -1963,7 +1963,7 @@ có_thể nhập lại số tiền được phân_bổ .,O O O O O O O O
 chi_phí mua hàng được sử_dụng để phân_bổ cho nhiều chứng_từ mua hàng khác nhau .,O O O O O O O O O O O O O O O
 "Chọn phương_thức phân_bổ , nhấn Phân_bổ .",O O O O O O O
 "Nhấn_Đồng ý , chương_trình sẽ tự_động phân_bổ chi_phí vận_chuyển hàng về kho vào giá_trị nhập kho của hàng_hoá mua về trên tab Hàng tiền .",O O O O O O O O O O O O O O O O O O O O O O O O O
-"Lưu_ý : Nếu muốn theo_dõi chi_phí mua hàng trên_tài khoản 1562 theo đúng chế_độ kế_toán thì sau khi thực_hiện phân_bổ chi_phí mua hàng cho các mặt_hàng mua về , cần vào phân hệ Tổng_hợp \ Chứng_từ nghiệp_vụ khác để hạch_toán bút_toán kết chuyển tài_khoản 1562 sang tài_khoản 1561 ( Nợ_TK 1561 / Có TK 1562 )",O O O O O O O O O O B-ACCOUNT_NUMBER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O B-ACCOUNT_NUMBER O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O
+"Lưu_ý : Nếu muốn theo_dõi chi_phí mua hàng trên tài_khoản 1562 theo đúng chế_độ kế_toán thì sau khi thực_hiện phân_bổ chi_phí mua hàng cho các mặt_hàng mua về , cần vào phân hệ Tổng_hợp \ Chứng_từ nghiệp_vụ khác để hạch_toán bút_toán kết chuyển tài_khoản 1562 sang tài_khoản 1561 ( Nợ_TK 1561 / Có TK 1562 )",O O O O O O O O O O B-ACCOUNT_NUMBER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O B-ACCOUNT_NUMBER O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O
 Mua hàng có chiết_khấu thương_mại,O O O O O
 Trường_hợp chiết_khấu thương_mại giảm trừ ngay trên hoá_đơn mỗi lần mua hàng,O O O O O O O B-VOUCHER_TYPE O O O O
 "Nợ_TK 152 , 156 , ...",O B-ACCOUNT_NUMBER O B-ACCOUNT_NUMBER O O
@@ -2260,7 +2260,7 @@ Trường_hợp Có sử_dụng dịch_vụ hoá_đơn điện_tử :,O O O O B-
 Thực_hiện phát_hành hoá_đơn điện_tử theo hướng_dẫn tại đây .,O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 Nếu không sử_dụng phần_mềm để quản_lý việc xuất hoá_đơn : Nhập trực_tiếp thông_tin hoá_đơn GTGT tại tab Hoá_đơn .,O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE B-TAX_TYPE O O B-VOUCHER_TYPE O
 "Trường_hợp Thủ_kho có tham_gia sử_dụng phần_mềm , sau khi chứng_từ trả lại hàng mua được lập , chương_trình sẽ tự_động sinh phiếu xuất kho trên tab Đề_nghị nhập , xuất kho của Thủ_kho .",O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
-Thủ_kho hiện việc ghi sổ phiếu xuất kho vào_sổ kho .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O
+Thủ_kho hiện việc ghi sổ phiếu xuất kho vào sổ kho .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Trường_hợp chọn phương_thức giảm trừ là Thu tiền_mặt và Thủ_quỹ có sử_dụng phần_mềm , sau khi chứng_từ được lập , Thủ_quỹ sẽ đăng_nhập vào phần_mềm để thực_hiện Ghi sổ cho các phiếu thu .",O O O O O O O B-ACCOUNT_NAME O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Trả lại hàng đã mua về không qua kho,O O O O O O O O O
 Nhân_viên mua hàng làm thủ_tục để xuất lại hàng bị trả .,O O O O O O O O O O O O
