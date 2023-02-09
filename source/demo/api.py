@@ -15,16 +15,14 @@ class NER():
         sentence = vitools.normalize_diacritics(sentence)
         sentence = underthesea.word_tokenize(sentence, format = "text")
         output = {
-            "PATIENT_ID":[], 
-            "NAME":[], 
-            "AGE":[], 
-            "GENDER":[], 
-            "JOB":[], 
-            "LOCATION":[], 
-            "ORGANIZATION":[], 
-            "SYMPTOM_AND_DISEASE":[], 
-            "TRANSPORTATION":[], 
+            "ACCOUNT_NUMBER":[], 
+            "ACCOUNT_NAME":[], 
             "DATE":[], 
+            "UNIT_PRICE":[], 
+            "MONEY":[], 
+            "TAX_TYPE":[], 
+            "TAX_RATE":[], 
+            "VOUCHER_TYPE":[], 
         }
         pred = self.model(sentence)
         for entity in pred:

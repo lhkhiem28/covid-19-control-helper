@@ -6,7 +6,7 @@ class NERDataset(torch.utils.data.Dataset):
         data_path, 
         tag_names, 
     ):
-        self.data = [json.loads(sample) for sample in open(data_path, encoding = "utf-8")]
+        self.data = pd.read_csv(data_path)
         self.tag_names = tag_names
         self.tokenizer = transformers.AutoTokenizer.from_pretrained(
             "vinai/phobert-large", 
@@ -20,8 +20,8 @@ class NERDataset(torch.utils.data.Dataset):
     def __getitem__(self, 
         index, 
     ):
-        sample = self.data[index]
-        words, tags = sample["words"], sample["tags"]
+        sample = self.data.iloc[index]
+        words, tags = sample["words"].split(), sample["tags"].split()
         encoded_words, encoded_tags = vncorenlp.ner_encode(
             words, tags
             , tag_names = self.tag_names
