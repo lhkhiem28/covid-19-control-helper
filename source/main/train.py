@@ -29,7 +29,7 @@ tag_names = [
 train_loaders = {
     "train":torch.utils.data.DataLoader(
         NERDataset(
-            data_path = "../../datasets/AccountingNER/initial/train.csv", 
+            data_path = "../../datasets/AccountingNER/02-18/train.csv", 
             tag_names = tag_names, 
         ), 
         num_workers = 4, batch_size = 8, 
@@ -37,7 +37,7 @@ train_loaders = {
     ), 
     "val":torch.utils.data.DataLoader(
         NERDataset(
-            data_path = "../../datasets/AccountingNER/initial/val.csv", 
+            data_path = "../../datasets/AccountingNER/02-18/val.csv", 
             tag_names = tag_names, 
         ), 
         num_workers = 4, batch_size = 8, 
@@ -52,7 +52,7 @@ optimizer = torch.optim.Adam(
     model.parameters(), lr = 1e-5, 
 )
 
-save_ckp_dir = "../../ckps/AccountingNER/initial"
+save_ckp_dir = "../../ckps/AccountingNER"
 if not os.path.exists(save_ckp_dir):
     os.makedirs(save_ckp_dir)
 train_fn(
