@@ -28,7 +28,7 @@ tag_names = [
 
 test_loader = torch.utils.data.DataLoader(
     NERDataset(
-        data_path = "../../datasets/AccountingNER/word/test.csv", 
+        data_path = "../../datasets/AccountingNER/initial/test.csv", 
         tag_names = tag_names, 
     ), 
     num_workers = 4, batch_size = 8, 
@@ -39,7 +39,7 @@ model = transformers.RobertaForTokenClassification.from_pretrained(
     num_labels = len(tag_names), 
 )
 
-save_ckp_dir = "../../ckps/AccountingNER/word"
+save_ckp_dir = "../../ckps/AccountingNER/initial"
 model = torch.load(
     "{}/best.ptl".format(save_ckp_dir), 
     map_location = "cuda", 
