@@ -56,7 +56,7 @@ save_ckp_dir = "../../ckps/AccountingNER"
 if not os.path.exists(save_ckp_dir):
     os.makedirs(save_ckp_dir)
 train_fn(
-    train_loaders, num_epochs = 20, 
+    train_loaders, num_epochs = 30, 
     model = model, 
     optimizer = optimizer, 
     save_ckp_dir = save_ckp_dir, 

@@ -1,5 +1,5 @@
-/ckps/*/*/*.ptl
-/ckps/*/*/*.bin
+/ckps/*/*.ptl
+/ckps/*/*.bin
 /source/demo/vncorenlp
 
 **/__pycache__
