@@ -1,10 +1,8 @@
 words,tags
 "Do_đó , doanh_nghiệp / đơn_vị có_thể thiết_lập mẫu hoá_đơn giản , theo nhu_cầu sử_dụng của mình mà không cần lập thông_báo phát_hành ( không phải nộp Mẫu hoá_đơn khi đăng_ký sử_dụng hoá_đơn điện_tử ) với cơ_quan Thuế .",O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
-Các chi_phí bỏ ra trong quá_trình thanh_lý đã trả bằng tiền_mặt bao_gồm cả thuế GTGT 10% là 5.500.000 đồng .,O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O B-MONEY I-MONEY
 Thanh_toán lãi chia cho thành_viên góp vốn tạm tính 25.000.000 đồng_bằng chuyển_khoản .,O O O O O O O O O B-MONEY O O O
 Lập và phát_hành hoá_đơn Đại_lý vé máy_bay theo Nghị_định 123 tương_tự như lập hoá_đơn cùng loại theo Nghị_định 51 và các hoá_đơn điện_tử khác,O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Giá bán chưa có thuế GTGT bao_gồm : giá_trị hàng_hoá thực_tế nhập_khẩu theo giá CIF , thuế nhập_khẩu , thuế tiêu_thụ đặc_biệt và các khoản phải nộp theo chế_độ quy_định ở khâu nhập_khẩu ( nếu có ) .",O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O O O
-Công_ty cổ_phần dược_phẩm Hà_Tây mua một bản_quyền công_nghệ chế_biến thuốc thực_phẩm theo phương_thức thanh_toán chậm trong vòng 2 năm với giá 921.000.000 đồng ( chưa có thuế GTGT 10% ) .,O O O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O
 "Lưu_ý : Để phát_hành hoá_đơn điện_tử trên chứng_từ Bán hàng xuất_khẩu , cần tích chọn XK vào khu phi thuế_quan và các trường_hợp được coi như xuất_khẩu",O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O
 Hạch_toán phí chuyển tiền ( nếu có ),O O O O O O O O
 "Ngày 15/2/2021 , Công_ty cổ_phần ô_tô Trường Hải ở Việt_Nam bán hàng_hoá cho Công_ty SAP ở Đức , giá bán hàng_hoá là 252 triệu đồng , tỷ_giá giao_dịch thực_tế giữa đồng Việt_Nam và đồng Euro ngày 15/2/2021 là 1 EUR = 26.300 VND ; giá_vốn hàng_hoá là 209 triệu đồng .",B-DATE I-DATE O O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY I-MONEY O O O O O O O O O O B-DATE I-DATE O B-MONEY I-MONEY O B-MONEY I-MONEY O O O O B-MONEY I-MONEY I-MONEY O
@@ -14,7 +12,6 @@ Nếu không tích chọn : Chỉ cần nhập mã xác_thực ở lần ký s�
 "Đến ngày 3/8/2020 , Công_ty B thông_báo chấp_nhận 3/4 số hàng gửi bán .",O B-DATE I-DATE O O O O O O O O O O O
 "Lưu_ý : Nếu muốn quản_lý tình_trạng thực_hiện của các hợp_đồng mua hàng , kế_toán cần cập_nhật lại trạng_thái thực_hiện cho các đơn hàng đó bằng cách nhấn chuột phải trên màn_hình danh_sách và chọn chức_năng Cập_nhật tình_trạng .",O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O
 TK 111 : 100 triệu đồng,B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O B-MONEY I-MONEY I-MONEY
-Lãi_suất tiền vay ngân_hàng kỳ_hạn 5 năm của Công_ty TNHH A là 12% / năm .,O O O O O O O O O O O O B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE
 "Thông_tin hàng tiền : chọn các vật_tư , hàng_hoá được doanh_nghiệp mua về , đồng_thời khai_báo các thông_tin về : tài_khoản hạch_toán , đơn_vị tính , số_lượng , đơn_giá , chiết_khấu , thuế GTGT , ... của hàng được mua về .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O
 ( Có_thể lập nhanh bằng cách nhập_khẩu hoá_đơn đã lưu hoặc copy cột dữ_liệu từ file Excel vào phần_mềm ),O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
 Công_ty đã chuyển_khoản thanh_toán cho người bán sau khi trừ chiết_khấu thanh_toán được hưởng 1% ( tính trên tổng giá thanh_toán ) .,O O O O O O O O O O O O O O O O O O O O O O O
@@ -33,14 +30,11 @@ Chọn hoá_đơn và nhấn Đồng_ý .,O B-VOUCHER_TYPE O O O O
 "Chọn chức_năng In trên thanh công_cụ , sau đó chọn mẫu phiếu chi cần in .",O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Ghi_nhận doanh_thu phí uỷ_thác nhập_khẩu,O O O O O
 Vật_liệu phụ : 24.000.000.000 đồng .,O O O B-MONEY I-MONEY O
-"Xi_măng 150 tấn , đơn_giá trước thuế GTGT 1.500.000 đồng / tấn .",O O O O O O B-TAX_TYPE I-TAX_TYPE B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O
 Ngày 3/9 : vật_liệu B đã về nhập kho đủ .,B-DATE I-DATE O O O O O O O O O
 "Trường_hợp lập Phiếu chi / Chứng_từ chi tiền gửi / Chứng_từ nghiệp_vụ khác / Chứng_từ quyết_toán tạm_ứng , cần chọn phương_thức hạch_toán :",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O
 Mục Lý_do thu : Chọn_Thu khác .,O O O O O O O
 Nhấn vào biểu_tượng bánh_răng,O O O O
-"Xuất kho lô sản_phẩm Muối chấm 20g để bán trả_chậm cho Y : trị_giá xuất kho 3.500.000.000 đồng , trị_giá bán trả ngay đã có thuế GTGT 4.620.000.000 đồng , tổng giá thanh_toán 5.105.100.000 đồng .",O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O O O O O B-TAX_TYPE I-TAX_TYPE B-MONEY I-MONEY O O O O B-MONEY I-MONEY
 "Nếu đã thiết_lập email gửi chứng_từ , báo_cáo thì có_thể sao_chép thiết_lập này để thiết_lập gửi email hoá_đơn điện_tử như sau :",O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
-"Thuế_suất thuế xuất_khẩu 3% , chưa nộp thuế .",O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O
 "Ngày 5/1 , xuất kho 20 thành_phẩm giao cho khách_hàng B để thay_thế thành_phẩm hỏng không sửa_chữa được .",B-DATE I-DATE O O O O O O O O O O O O O O O O O
 "Ngày 3/5 , rút_tiền gửi ngân_hàng nhập quỹ tiền_mặt , phiếu thu số 01/5 , số tiền 280 triệu đồng .",B-DATE I-DATE O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O B-MONEY I-MONEY I-MONEY O
 Lưu_ý : Có_thể lấy được các mẫu hoá_đơn / thông_báo phát_hành hoá_đơn đã đã khởi tạo trên phần_mềm meInvoice.vn ( bản meInvoice Desktop và meInvoice Web ) về phần_mềm MISA SME.NET để không mất_công khởi tạo và phát_hành lại .,O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O O O O
@@ -72,7 +66,6 @@ Các thực_hiện :,O O O
 "Nếu tích chọn : thì khi lập hoá_đơn trên MISA SME.NET , chương_trình không cho_phép nhập liệu vào ô Số hoá_đơn mà tự_động cập_nhật theo Số hoá_đơn phát_hành trên EasyInvoice .",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O
 "Lưu_ý : Nếu muốn quản_lý tình_trạng thực_hiện của các đơn mua hàng , kế_toán cần cập_nhật lại trạng_thái thực_hiện cho các đơn hàng đó bằng cách nhấn chuột phải trên màn_hình danh_sách và chọn chức_năng Cập_nhật tình_trạng .",O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O
 Tự_động lập chứng_từ từ hoá_đơn điện_tử .,O O O O O O O
-Hoa_hồng đại_lý 5% trên giá bán chưa có thuế GTGT .,O O O O O O O O O B-TAX_TYPE I-TAX_TYPE
 Có TK 511 Doanh_thu bán hàng và cung_cấp dịch_vụ ( 5113 ),O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME O B-ACCOUNT_NUMBER O
 Gửi hoá_đơn cho khách_hàng,O B-VOUCHER_TYPE O O
 Tổng lợi_nhuận sau thuế của Công_ty trong năm 2020 là 350.000.000 đồng .,O O O O O O O B-DATE I-DATE O B-MONEY I-MONEY O
@@ -123,7 +116,6 @@ Chọn hoá_đơn được điều_chỉnh,O B-VOUCHER_TYPE O O
 Thêm mới một chứng_từ bán hàng không lập kèm hoá_đơn trên tab Bán hàng .,O O O O O O O O O B-TAX_TYPE O O O O O
 Tại tab Thuế : Khai_báo thông_tin thuế GTGT và thông_tin hoá_đơn tương_ứng với mỗi mã hàng và chi_phí mua hàng .,O O O O O O B-TAX_TYPE I-TAX_TYPE O O B-VOUCHER_TYPE O O O O O O O O O O
 "Lưu_ý : Sau khi chọn mẫu đặt in / tự in để sử_dụng , kế_toán cũng có_thể chỉnh_sửa lại mẫu hoá_đơn nếu muốn .",O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O
-"Công_ty ABC đi thuê một tài_sản_cố_định hữu_hình trong thời_hạn 4 năm , giá_trị hợp_lý của tài_sản này tại thời_điểm thuê là 230.000.000 đồng ( chưa bao_gồm 10% thuế GTGT ) .",O O O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O B-TAX_RATE I-TAX_RATE B-TAX_TYPE I-TAX_TYPE O
 STT : 10 ; Loại tài_sản_cố_định : J ; Nguyên giá tài_sản_cố_định : 500.000.000 đồng ; Đơn_vị sử_dụng tài_sản_cố_định : Bộ_phận quản_lý doanh_nghiệp ; Phương_pháp khấu_hao tài_sản_cố_định : Khấu_hao theo đường_thẳng ; Thời_gian sử_dụng : 4 năm ; Số năm đang sử_dụng : 3 năm .,O O O O O O O O O O O O O B-MONEY I-MONEY O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 chi_phí mua hàng được sử_dụng để phân_bổ cho nhiều chứng_từ mua hàng khác nhau .,O O O O O O O O O O O O O O O
 "Sau khi nhận được tiền trả nợ của nhiều khách_hàng , nhân_viên sẽ yêu_cầu kế_toán thanh_toán lập Phiếu thu .",O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
@@ -138,7 +130,6 @@ Lập hoá_đơn cùng với chứng_từ bán hàng,O B-VOUCHER_TYPE O O O O O
 "Sau khi nộp bảo_hiểm xong , nhân_viên đi nộp thuế sẽ giao lại cho kế_toán thanh_toán giấy xác_nhận nộp bảo_hiểm của cơ_quan bảo_hiểm .",O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Lưu_ý : Trường_hợp Thủ_quỹ có tham_gia sử_dụng phần_mềm , sau khi phiếu chi_trả tiền cho nhà_cung_cấp được lập , chương_trình sẽ tự_động sinh ra phiếu chi trên tab Đề_nghị thu , chi của Thủ_quỹ .",O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
 Khi gửi hoá_đơn số 01 cho khách_hàng thì trên email thông_tin # # AccountObjectName # # sẽ hiển_thị là Nguyễn_Văn_A ; Khi gửi hoá_đơn số 02 cho khách_hàng thì trên email thông_tin # # AccountObjectName # # sẽ hiển_thị là Nguyễn_Văn B.,O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O
-"Sắt 20 tấn , đơn_giá trước thuế GTGT 14.000.000 đồng / tấn .",O O O O O O B-TAX_TYPE I-TAX_TYPE B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O
 "Nếu không tích chọn , chỉ cần nhập mã xác_thực ở lần ký số đầu_tiên",O O O O O O O O O O O O O O O
 Cách 2 :,O O O
 Nếu chọn nhà_cung_cấp : Khác thì cần khai_báo các thông_tin sau :,O O O O O O O O O O O O
@@ -193,7 +184,6 @@ Lãi dự_tính : Năm thứ nhất : 950 triệu đồng,O O O O O O O B-MONEY 
 "Đem góp vốn vào công_ty liên_kết một tài_sản_cố_định hữu_hình có nguyên giá 2.500.000.000 đồng , đã trích khấu_hao 300.000.000 đồng .",O O O O O O O O O O O O B-MONEY I-MONEY O O O O B-MONEY I-MONEY O
 "Thiết_lập điều_kiện tìm_kiếm chứng_từ mua hàng , sau đó nhấn Lấy dữ_liệu .",O O O O O O O O O O O O O
 Chỉ_tiêu : Chi_phí thực_tế đến năm : Năm 2013 : 1.500.000.000 đ,O O O O O O O B-DATE I-DATE O B-MONEY I-MONEY
-Do doanh_nghiệp nắm giữ cổ_phiếu của công_ty JSC từ ngày 1/4/2018 ( trong 3 quý của năm 2018 ) nên 75% của số cổ_tức được chia sẽ được ghi_nhận là doanh_thu tài_chính ( 75 triệu đồng ) .,O O O O O O O O O B-DATE I-DATE O O O O O B-DATE I-DATE O O O O O O O O O O O O O O O O B-MONEY I-MONEY I-MONEY O
 Hãy xác_định trị_giá vật_liệu xuất kho trong kỳ và tồn_kho cuối kỳ theo từng phương_pháp tính giá vật_liệu xuất kho khác nhau .,O O O O O O O O O O O O O O O O O O O O O O O
 Doanh_thu hợp_đồng tăng thêm : Năm thứ hai : 200 triệu đồng,O B-VOUCHER_TYPE O O O O O O O B-MONEY I-MONEY I-MONEY
 Tải hoá_đơn điện_tử đã phát_hành,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
@@ -256,7 +246,6 @@ Khoản vốn vay chung : Vay 6.000.000.000 đ lãi_suất 10% thời_hạn vay 
 """ 6 K 22 BAB "" - là phiếu xuất kho hàng gửi bán đại_lý điện_tử loại không có mã được lập năm 2022 do doanh_nghiệp đăng_ký với cơ_quan thuế .",O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-DATE I-DATE O O O O O O O
 Hoá_đơn về trước hàng về sau,B-VOUCHER_TYPE O O O O O
 "Sau khi kết_nối thành_công , đơn_vị mới có_thể thực_hiện được các chức_năng của phân hệ hoá_đơn điện_tử trên phần_mềm .",O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
-"Tiền điện 1.200.000 đồng ( chưa gồm 10% thuế GTGT ) , đã thanh_toán .",O O B-MONEY I-MONEY O O O B-TAX_RATE I-TAX_RATE B-TAX_TYPE I-TAX_TYPE O O O O
 Trả lại hàng mua,O O O O
 "Công_ty đã thanh_toán bằng tiền vay ngân_hàng là 1.800.000.000 đồng , số tiền còn lại thanh_toán từ tài_khoản ngân_hàng của công_ty .",O O O O O O O O B-MONEY I-MONEY O O O O O O O O O O O O
 "Nộp toàn_bộ bảo_hiểm_xã_hội , bảo_hiểm_y_tế , bảo_hiểm tự_nguyện và 50% kinh_phí công_đoàn trích trong kỳ cho các cơ_quan quản_lý quỹ bằng chuyển_khoản .",O O O O O O O O O O O O O O O O O O O O O O O
@@ -284,14 +273,12 @@ Lập và phát_hành hoá_đơn Đại_lý hàng_hải,O O O B-VOUCHER_TYPE O O
 Chọn các chứng_từ mua hàng được hưởng chiết_khấu thương_mại :,O O O O O O O O O O
 Trị_giá phế_liệu thu_hồi nhập kho : 25.000.000 đồng .,O O O O O O B-MONEY I-MONEY O
 "Khái_niệm về hình_thức hoá_đơn điện_tử "" có mã "" và "" không có mã "" của cơ_quan thuế là điểm mới được quy_định tại Nghị_định 123/2020/NĐ-CP.",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O
-Công_ty Cổ_phần Thế_Giới Di_Động góp 50% vốn bằng nhà_xưởng có giá_trị còn lại theo sổ kế_toán là 1.000.000.000 đ ( Khấu_hao luỹ kế 400.000.000 đ ) .,O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O O B-MONEY I-MONEY O
 Từ các khoản vốn vay riêng_biệt là 8.500.000.000 đồng .,O O O O O O O B-MONEY I-MONEY O
 Chuyển_đổi từ hoá_đơn giấy sang sử_dụng hoá_đơn điện_tử theo nghị_định 123/2020/NĐ-CP,O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 Mua hàng có phát_sinh chi_phí mua hàng,O O O O O O O
 Sản_phẩm B xuất bán kèm phụ_tùng thay_thế có trị_giá 12.000.000 đồng .,O O O O O O O O O B-MONEY I-MONEY O
 Ký số điện_tử thông_qua chữ_ký số_từ xa,O O O O O O O
 Công_ty cổ_phần dược_phẩm Hà_Tây mua một công_thức và cách_thức pha_chế một loại thuốc mới của công_ty dược_phẩm B với giá là 1.200.000 cổ_phiếu của Công_ty cổ_phần Traphaco .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
-"Mua nguyên_vật_liệu phụ thanh_toán bằng chuyển_khoản theo giá hoá_đơn có cả thuế GTGT 10% dùng trực_tiếp cho sản_xuất sản_phẩm là 38.500.000 đồng , dùng cho quản_lý phân_xưởng là 5.500.000 đồng .",O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O B-MONEY I-MONEY O O O O O O B-MONEY I-MONEY
 Tại tab Hàng tiền : khai_báo thông_tin hàng_hoá được mua về và chi_phí mua hàng phát_sinh .,O O O O O O O O O O O O O O O O O
 "( Đơn_vị cũng có_thể xác_định dựa vào thông_báo của Chi_cục thuế , gửi qua email ) .",O O O O O O O O O O O O O O O O O
 Mua hàng theo hợp_đồng mua hàng,O O O B-VOUCHER_TYPE O O
@@ -318,7 +305,6 @@ Nội_dung,O
 "Nếu chứng_từ mua hàng lựa_chọn phương_thức Thanh_toán ngay , hệ_thống sẽ căn_cứ vào hình_thức thanh_toán là tiền_mặt , uỷ_nhiệm chi , séc chuyển_khoản hay séc tiền_mặt mà tự_động sinh ra các chứng_từ chi tiền_mặt hoặc chi tiền gửi ngân_hàng trên phân hệ Quỹ hoặc Ngân_hàng .",O O O O O O O O O O O O O O O O B-ACCOUNT_NAME O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O B-ACCOUNT_NAME O O B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME O O O O O O O
 Xoá hoá_đơn EasyInvoice đã phát_hành và lập hoá_đơn thay_thế,O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O
 Lựa_chọn phương_thức thanh_toán cho chứng_từ mua hàng là Chưa thanh_toán hoặc Thanh_toán ngay .,O O O O O O O O O O O O O O
-"Có TK 338 Phải trả , phải nộp khác ( 3388 )",O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME O B-ACCOUNT_NUMBER O
 Thiết_lập chế_độ bù_trừ công_nợ theo hoá_đơn,O O O O O B-VOUCHER_TYPE
 "Khi phát_sinh nghiệp_vụ mua hàng theo lệnh sản_xuất , thông_thường sẽ phát_sinh các hoạt_động sau :",O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O
 Chỉ_tiêu : Số tiền đã thanh_toán bằng tiền gửi ngân_hàng : Năm 2013 : 750.000.000 đ,O O O O O O O O O O O B-DATE I-DATE O B-MONEY I-MONEY
@@ -326,7 +312,6 @@ Có TK 131 Phải thu của khách_hàng,O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-A
 "Lấy các Mẫu hoá_đơn trên meInvoice.vn không bị trùng mẫu_số với các mẫu hoá_đơn trên MISA SME , lấy về tab Mẫu hoá_đơn , phân hệ Quản_lý hoá_đơn .",O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O
 Biên_bản điều_chỉnh : Cho_phép thực_hiện các chức_năng tại tab Biên_bản điều_chỉnh .,O O O O O O O O O O O O
 Số 2 : Phản_ánh loại hoá_đơn điện_tử bán hàng ;,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
-Hàng tồn_kho cuối kỳ ( 19.500.000 ) đồng .,O O O O B-MONEY I-MONEY I-MONEY I-MONEY O
 "Thông_tin hàng tiền : chọn các vật_tư , hàng_hoá được doanh_nghiệp mua về , đồng_thời khai_báo các thông_tin về :",O O O O O O O O O O O O O O O O O O O O
 Có_thể thực_hiện lọc thông_tin để xem công_nợ của một nhà_cung_cấp .,O O O O O O O O O O O
 Hướng_dẫn thu_hồi các hoá_đơn áp_dụng theo Nghị_định 51/2010/NĐ-CP đã gửi lên SInvoice nhưng chưa phát_hành .,O O O B-VOUCHER_TYPE O O O O O O O O O O O O
@@ -377,7 +362,6 @@ Lưu_ý : Có_thể thiết_lập nội_dung email Gửi thông_báo xoá hoá_�
 Khoản vay chỉ để sử_dụng cho mục_đích đầu_tư xây_dựng nhà_máy sản_xuất thép đủ điều_kiện vốn hoá : 8.500.000.000 đồng với lãi_suất 12% thời_hạn vay 3 năm .,O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O O O O O O
 Xem phim hướng_dẫn,O O O
 Lưu_ý : Chương_trình không cho_phép sửa / xoá các mã hàng này ( chỉ cho_phép sửa tên ),O O O O O O O O O O O O O O O O O O
-"Trị_giá vật_liệu là 500.000.000 đồng , thuế_suất thuế GTGT 10% , đã thanh_toán 1/2 số tiền .",O O O B-MONEY I-MONEY O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O
 "Tiền_lương và các khoản phụ_cấp phải trả cho người công_nhân trực_tiếp sản_xuất sản_phẩm là 140.000.000 đồng , cho nhân_viên quản_lý phân_xưởng là 28.000.000 đồng , nhân_viên bán hàng là 30.000.000 đồng , nhân_viên bộ_phận quản_lý doanh_nghiệp là 38.000.000 đồng .",O O O O O O O O O O O O O O B-MONEY I-MONEY O O O O O O B-MONEY I-MONEY O O O O O B-MONEY I-MONEY O O O O O O B-MONEY I-MONEY O
 "Ngày 30/07 : Thanh_toán tiền thuê mặt_bằng phân_xưởng sản_xuất trong tháng : 12.000.000 đồng , đã chuyển_khoản .",B-DATE I-DATE O O O O O O O O O O B-MONEY I-MONEY O O O O
 Làm thế_nào để đơn_vị tôi sử_dụng được cả hoá_đơn có mã và hoá_đơn không có mã của cơ_quan thuế ?,O O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O
@@ -394,7 +378,6 @@ Bước 1 : Lập hoá_đơn thay_thế trên SME,O O O O B-VOUCHER_TYPE O O O
 "Mua nguyên_liệu A nhập kho , chưa thanh_toán .",O O O O O O O O O
 Khai_báo ngày thực_hiện nộp thuế .,O O O O O O
 "Tổng doanh_thu cung_cấp trong kỳ cho khách_hàng A là 102.888.000 đ . 01 dặm = 01 điểm , khách_hàng tích_luỹ được số điểm là 25.200 điểm .",O O O O O O O O O B-MONEY I-MONEY O O O O O O O O O O O O O O O O
-Mua trả_chậm một toà nhà dùng làm cửa_hàng trưng_bày sản_phẩm với giá mua trả ngay chưa bao_gồm 10% thuế GTGT là 12.000.000.000 đồng .,O O O O O O O O O O O O O O O O O B-TAX_RATE I-TAX_RATE B-TAX_TYPE I-TAX_TYPE O B-MONEY I-MONEY
 Thông_báo với cơ_quan thuế theo Mẫu_số 04 về việc huỷ hoá_đơn điện_tử đã lập có sai_sót .,O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O
 "Cung_cấp các công_cụ giúp Kế_toán lập nhanh các chứng_từ mua hàng_hoá , dịch_vụ , giảm_thiểu được thời_gian và thao_tác khi làm_việc .",O O O O O O O O O O O O O O O O O O O O O O
 "Trạng_thái phát_hành hoá_đơn điện_tử : Chưa phát_hành , đang phát_hành ...",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O
@@ -403,7 +386,6 @@ Nhấn chuột phải vào dòng hoá_đơn cần gửi và chọn Gửi hoá_đ
 Đang tích chọn Sử_dụng dịch_vụ hoá_đơn điện_tử theo Nghị_định 51/2010/NĐ-CP: Chương_trình sẽ gửi thông_báo người dùng cần_thiết lập lại tuỳ chọn hệ_thống,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O
 Doanh_nghiệp có rủi_ro cao về thuế : Người nộp thuế thuộc đối_tượng sử_dụng hoá_đơn điện_tử không có mã nếu thuộc trường_hợp được xác_định rủi_ro cao về thuế ; và được cơ_quan thuế thông_báo về việc chuyển_đổi áp_dụng hoá_đơn điện_tử có mã của cơ_quan thuế .,O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 Tích chọn các hoá_đơn muốn gửi cho khách_hàng .,O O O B-VOUCHER_TYPE O O O O O
-"Tình_hình trong kỳ : Ngày 2/6 , Vật_liệu M đi đường về nhập kho với số_lượng 4.000 mét , hoá_đơn vận_chuyển đã thanh_toán bằng tiền_mặt 3.520.00 đồng , đã bao_gồm thuế GTGT 10% .",O O O O B-DATE I-DATE O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE
 "Ngày 5/10 , vay bằng ngoại_tệ 50.000 USD nhập quỹ tiền_mặt , tỷ_giá thực_tế 1 USD = 23.200 VND .",B-DATE I-DATE O O O O B-MONEY I-MONEY O O O O O O O O O B-MONEY I-MONEY O
 Tổng chi_phí dự_toán của hợp_đồng : Năm thứ nhất : 8.050 triệu đồng,O O O O B-VOUCHER_TYPE O O O O O B-MONEY I-MONEY I-MONEY
 "Để có thông_tin về người bán in lên hoá_đơn như : Tên đơn_vị bán hàng , Địa_chỉ , Mã_số thuế … , cần khai_báo tại menu Danh_mục \ Cơ_cấu tổ_chức .",O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O
@@ -443,7 +425,6 @@ Chọn phương_thức thanh_toán và tích chọn Trả lại hàng trong kho 
 Mở chứng_từ mua hàng có nội_dung tương_tự với chứng_từ mua hàng cần lập .,O O O O O O O O O O O O O O
 "Trường_hợp Thủ_quỹ có tham_gia sử_dụng phần_mềm , sau khi phiếu thu tiền trả nợ của khách_hàng được lập , chương_trình sẽ tự_động sinh ra phiếu thu trên tab Đề_nghị thu , chi của Thủ_quỹ .",O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
 "Trong năm 2018 , Công_ty cổ_phần hoá_chất Đức Giang có số_liệu sau : Tổng doanh_thu ( đều là doanh_thu chịu thuế TNDN ) : 1.000.000.000.000 đồng ,",O B-DATE I-DATE O O O O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O B-MONEY I-MONEY O
-"Trong tháng 5/2020 , Công_ty C & AE xuất kho thành_phẩm A để đổi lấy vật_tư B với giá_vốn xuất kho là 300.000.000 đồng , giá thanh_toán cả thuế GTGT 10% là 440.000.000 đồng .",O B-DATE I-DATE O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O B-MONEY I-MONEY
 Phân_bổ giá_trị công_cụ dùng cụ xuất dùng từ kỳ trước vào chi_phí_sản_xuất trong kỳ là 20.000.000 đồng .,O O O O O O O O O O O O O O O B-MONEY I-MONEY O
 Trả các khoản vay bằng tiền gửi ngân_hàng,O O O O O B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME
 "Lấy các Thông_báo phát_hành hoá_đơn được lập trên meInvoice.vn , lấy về tab Thông_báo phát_hành hoá_đơn , phân hệ Quản_lý hoá_đơn .",O O O O B-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O
@@ -469,7 +450,6 @@ Xem hướng_dẫn chi_tiết tại đây .,O O O O O O
 "Với các mẫu Email_Báo giá , Đơn đặt_hàng , Chứng_từ bán hàng , Đơn mua hàng , Mua hàng_hoá , dịch_vụ , Hợp_đồng bán : có_thể chọn tệp đính kèm để gửi kèm email .",O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O
 "Cung_cấp các công_cụ giúp Kế_toán lập nhanh các đơn mua hàng , giảm_thiểu được thời_gian và thao_tác khi làm_việc .",O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
 Lập nhanh từ chứng_từ mua hàng,O O O O O O
-"Có TK 3333 Thuế xuất , nhập_khẩu",O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME
 Tích chọn các hoá_đơn muốn lập thông_báo .,O O O B-VOUCHER_TYPE O O O O
 Lập từ chứng_từ mua hàng có nội_dung tương_tự,O O O O O O O O
 Kế_toán có_thể tải hoá_đơn điện_tử bằng 1 trong 2 cách sau :,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O
@@ -489,13 +469,10 @@ Thao_tác thực_hiện đối_với hoá_đơn điện_tử theo Nghị_định
 "Giúp lấy được các Mẫu hoá_đơn , Thông_báo phát_hành hoá_đơn đã khởi tạo trên phần_mềm meInvoice.vn ( bản meInvoice Desktop và meInvoice Web ) về phần_mềm MISA SME để không mất_công khởi tạo và phát_hành lại .",O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Gửi hoá_đơn cho hàng_loạt khách_hàng,O B-VOUCHER_TYPE O O O
 Xuất hoá_đơn điện_tử theo Nghị_định 123/2020/NĐ-CP cho đơn_vị đang sử_dụng MISA SME 2021 trở về trước như_thế_nào ?,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O
-Đơn_giá tính thuế bảo_vệ môi_trường 10.000 đồng / kg .,O O B-TAX_TYPE I-TAX_TYPE I-TAX_TYPE B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O
 Bộ_phận quản_lý doanh_nghiệp : 400.000 đồng .,O O O O B-MONEY I-MONEY O
-"Trong tháng 7/2020 , Công_ty C & AE xuất kho một_số thành_phẩm chuyển đến cho đại_lý T theo giá_vốn 200.000.000 đồng , giá bán chưa thuế GTGT 10% là 300.000.000 đồng .",O B-DATE I-DATE O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O B-MONEY I-MONEY
 "Tự_động kiểm_tra tính hợp_lệ , hợp_pháp của hoá_đơn .",O O O O O O O B-VOUCHER_TYPE O
 Khởi tạo_mẫu hoá_đơn Vé máy_bay từ bộ mẫu có sẵn trên meInvoice Web,O O B-VOUCHER_TYPE O O O O O O O O O O
 Có TK 331 Phải trả cho người bán ( chi_tiết từng đơn_vị nhận uỷ_thác ) khấu_trừ số tiền hàng đã ứng trước,O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME O O O O O O O O O O O O O O
-"Ngày 31/12/2020 , Phân_xưởng I báo hỏng số dụng_cụ trên , công_ty đã tiến_hành thanh_lý và thu bằng tiền_mặt 13.200.000 đồng , đã bao_gồm thuế GTGT 10% .",B-DATE I-DATE O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE
 STT : 5 ; Loại tài_sản_cố_định : E ; Nguyên giá tài_sản_cố_định : 800.000.000 đồng ; Đơn_vị sử_dụng tài_sản_cố_định : Bộ_phận bán hàng ; Phương_pháp khấu_hao tài_sản_cố_định : Khấu_hao nhanh ; Thời_gian sử_dụng : 8 năm ; Số năm đang sử_dụng : 6 năm .,O O O O O O O O O O O O O B-MONEY I-MONEY O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "Doanh_nghiệp ABC hạch_toán thuế GTGT theo phương_pháp khấu_trừ , áp_dụng phương_pháp kê_khai thường_xuyên để hạch_toán hàng tồn_kho , các nghiệp_vụ thanh_toán thực_hiện qua ngân_hàng , có số_liệu như sau :",O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O
 Những điểm mới về hoá_đơn điện_tử theo Nghị_định 123/2020/NĐ-CP,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O
@@ -522,7 +499,6 @@ Nhấn_Thêm mẫu .,O O O
 Bù_trừ công_nợ theo tài_khoản,O O O O
 Tính các khoản trích theo lương theo tỷ_lệ quy_định .,O O O O O O O O O O
 "Không tích chọn : Khi lập chứng_từ từ hoá_đơn điện_tử đầu_vào , tên hàng_hoá sẽ lấy theo tên trên hoá_đơn .",O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
-"Cọc tròn : 120 cái , đơn_giá trước thuế 5.000.000 đồng / cái .",O O O O O O O O O B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O
 Hãy định khoản nghiệp_vụ nhượng bán thiết_bị sản_xuất này .,O O O O O O O O O O
 "Trên màn_hình danh_sách Mua hàng_hoá , dịch_vụ , chọn chứng_từ chưa nhận hoá_đơn cần khai_báo bổ_sung thông_tin hoá_đơn .",O O O O O O O O O O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE O
 Lập hoá_đơn điện_tử,O B-VOUCHER_TYPE I-VOUCHER_TYPE
@@ -541,7 +517,6 @@ Mục Đối_tượng : Chọn đơn_vị nhận uỷ_thác nhập_khẩu .,O O 
 "Vào phân hệ Mua hàng , chọn Chứng_từ mua dịch_vụ ( hoặc vào tab Mua hàng_hoá , dịch_vụ , nhấn Thêm \ Chứng_từ mua dịch_vụ ) .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Tỷ_lệ_phần_trăm ( % ) hoàn_thành : Năm thứ nhất : 26%,O O O O O O O O O O O
 "Chi_phí cho nhân_viên bán hàng là 200.000.000 đồng , nhân_viên quản_lý doanh_nghiệp là 100.000.000 đồng .",O O O O O O B-MONEY I-MONEY O O O O O B-MONEY I-MONEY O
-"Ngày 3/10 , Công_ty đi vay Ngân_hàng ACB để mua 1 xe ô_tô 4 chỗ sử_dụng ở bộ_phận quản_lý doanh_nghiệp , theo hoá_đơn GTGT có giá mua là 250.000 đồng , thuế GTGT 10% .",B-DATE I-DATE O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE B-TAX_TYPE O O O O B-MONEY I-MONEY O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE
 TK 211 Dư_Nợ đầu tháng : 3.688.000.000 đồng .,B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O O O B-MONEY I-MONEY O
 Nếu hàng_hoá mua về nhập kho trước đó đã tiêu_thụ 1 phần,O O O O O O O O O O O O
 "Căn_cứ vào giấy_báo Nợ , kế_toán thanh_toán hạch_toán ghi_nhận khoản vay đã được trả vào sổ kế_toán , đồng_thời ghi sổ tiền gửi ngân_hàng .",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O
@@ -558,7 +533,6 @@ Hoặc thiết_lập điều_kiện tìm_kiếm hợp_đồng mua và nhấn L�
 "Đối_với mã_số thuế kết_nối đã có tờ khai đăng_ký sử_dụng hoá_đơn điện_tử theo Nghị_định 123 được cơ_quan thuế chấp_nhận ,",O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O
 Xoá hoá_đơn và lập hoá_đơn thay_thế,O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
 Năm thứ : 4 ; Giá_trị còn lại của TSCĐ : 2.160.000 đồng,O O O O O O O O O O O B-MONEY I-MONEY
-"Trị_giá vật_liệu là 300.000.000 đồng , thuế_suất thuế GTGT 10% , chưa thanh_toán .",O O O B-MONEY I-MONEY O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O
 "Trên danh_sách hoá_đơn đầu_vào , chương_trình hiển_thị kết_quả kiểm_tra tổng_quát , gồm các thông_tin sau :",O O B-VOUCHER_TYPE O O O O O O O O O O O O O
 Công_ty cổ_phần Hoá_chất Đức_Giang phát_hành trái_phiếu với tổng giá_trị theo mệnh_giá 10.000.000 đồng với thời_hạn là 3 năm .,O O O O O O O O O O O B-MONEY I-MONEY O O O O O O
 Phát_hành hoá_đơn vé máy_bay : Thực_hiện tương_tự như phát_hành các hoá_đơn điện_tử khác .,O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
@@ -575,12 +549,10 @@ Tổng giá_trị các khoản vay là 13.000.000.000 đồng .,O O O O O O B-UN
 có_thể nhập lại số tiền được phân_bổ .,O O O O O O O O
 "Khi phát_sinh nghiệp_vụ chuyển tiền từ tài_khoản ngân_hàng của chi_nhánh này sang tài_khoản ngân_hàng của chi_nhánh khác trong công_ty , sẽ phát_sinh các hoạt_động sau :",O O O O O O O O O O O O O O O O O O O O O O O O O O
 Lập và phát_hành hoá_đơn mới,O O O B-VOUCHER_TYPE O
-Nhập kho dụng_cụ A mua của X với giá mua 300.000.000 đồng ( chưa có thuế GTGT 10% ) đã thanh_toán 1/2 số tiền .,O O O O O O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O
 "Doanh_nghiệp tôi đã có tờ khai đăng_ký sử_dụng hoá_đơn điện_tử được cơ_quan thuế chấp_nhận , tôi phải làm như_thế_nào để sử_dụng được hoá_đơn điện_tử theo NĐ123 trên MISA SME ?",O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O
 Thiết_lập tuỳ chọn hệ_thống .,O O O O O
 "Nếu tích chọn "" Ghi_nhớ mã xác_thực ( mã pin ) cho lần sau "" chương_trình sẽ yêu_cầu nhập mã xác_thực mỗi lần thực_hiện ký số",O O O O O O O O O O O O O O O O O O O O O O O O O O
 "Tính ra tiền_lương phải trả công_nhân sản_xuất là 75.000.000 đồng , nhân_viên quản_lý phân_xưởng sản_xuất là 20.000.000 đồng .",O O O O O O O O B-MONEY I-MONEY O O O O O O B-MONEY I-MONEY O
-"Ngày 10/10 : Bán lô hàng_hoá mua về ngày 7/10 trị_giá 180.000.000 đồng ( chưa gồm thuế GTGT 10% ) , sau khi trừ tiền ứng trước , khách_hàng thanh_toán nốt bằng tiền gửi ngân_hàng .",B-DATE I-DATE O O O O O O B-DATE I-DATE O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O O O O O O O O O O O
 Phần_mềm tự_động sinh ra chứng_từ Uỷ_nhiệm chi nộp tiền bảo_hiểm .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Nhân_viên mua hàng thoả_thuận số_lượng , giá_cả , chiết_khấu được hưởng trong trường_hợp mua nhiều và lập đơn mua hàng .",O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O
 Lập nhanh từ danh_sách chứng_từ mua hàng,O O O O O O O
@@ -590,7 +562,6 @@ Danh_mục nguyên_vật_liệu tồn_kho : Nguyên_liệu B ; Trị_giá sổ k
 Giả_sử công_ty chỉ có thuế_thu_nhập hoãn lại phải trả liên_quan đến TSCĐ C và E.,O O O O B-TAX_TYPE I-TAX_TYPE I-TAX_TYPE O O O O O O O O
 "Sau khi tờ khai đăng_ký sử_dụng hoá_đơn điện_tử theo nghị_định 123 được cơ_quan thuế chấp_nhận , tích vào để chuyển sang tuỳ chọn này .",O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O
 Xoá hoá_đơn và lập hoá_đơn thay_thế,O B-VOUCHER_TYPE O O B-VOUCHER_TYPE O
-Tiền thuê phải trả hàng năm ( ngày 2 tháng 1 hàng năm ) là 70 triệu đồng / năm bắt_đầu từ năm 2015 .,O O O O O O O O O O O O O O O B-MONEY I-MONEY I-MONEY I-MONEY I-MONEY O O B-DATE I-DATE O
 Trường_hợp thiết_lập gửi hoá_đơn Thủ_công : Nhấn_Gửi_HĐ lên EasyInvoice .,O O O B-VOUCHER_TYPE O O O O O O
 Thanh_lý tài_sản_cố_định hữu_hình được hình_thành từ nguồn kinh_phí sự_nghiệp và đang sử_dụng cho hoạt_động sự_nghiệp có nguyên giá 900.000.000 đồng .,O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O
 Thời_hạn vay 5 năm .,O O O O O
@@ -613,7 +584,6 @@ Hướng_dẫn,O
 Trường_hợp Không sử_dụng dịch_vụ hoá_đơn điện_tử,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 "Tại mục Chức_năng , chọn nghiệp_vụ Hoá_đơn điện_tử .",O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Lập chứng_từ mua hàng từ lệnh sản_xuất,O O O O O O O
-"Ngày 22/5 , phiếu chi số 025 , chi mua nguyên_vật_liệu dùng ngay cho trực_tiếp sản_xuất , giá mua 200 triệu đồng , thuế_suất GTGT 10% .",B-DATE I-DATE O O O O O O O O O O O O O O O O O B-MONEY I-MONEY I-MONEY O O B-TAX_TYPE B-TAX_RATE I-TAX_RATE
 "( Trước_tiên cần vào menu Hệ_thống \ Tuỳ chọn \ Mua hàng , tích chọn ô Tính_Giá tính thuế nhập_khẩu dựa trên Phí trước HQ nguyên tệ , Phí trước HQ bằng tiền hạch_toán )",O O O O O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O O
 "Công_ty CP đầu_tư sản_xuất Bảo_Ngọc có một TSCĐ có nguyên giá là 120 triệu đồng , hao_mòn luỹ kế là 40 triệu đồng .",O O O O O O O O O O O O B-MONEY I-MONEY I-MONEY O O O O O B-MONEY I-MONEY I-MONEY O
 Lưu_ý :,O O
@@ -622,7 +592,6 @@ Nhập kho hàng nhập_khẩu .,O O O O O
 "Để thực_hiện bù_trừ công_nợ theo tài_khoản , thực_hiện theo các bước sau :",O O O O O O O O O O O O O
 Nhấn_Cất sau khi khai_báo xong thông_tin chứng_từ .,O O O O O O O O
 "Kế_toán thanh_toán lập Phiếu chi , sau đó chuyển cho kế_toán_trưởng và Giám_đốc ký duyệt .",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O
-"Lượng nguyên_vật_liệu trực_tiếp đã sử_dụng trong kỳ là 9.650 kg , định_mức nguyên_vật_liệu trực_tiếp là 0,2 kg / sản_phẩm , đơn_giá xuất kho nguyên_vật_liệu là 800.000 đồng / kg .",O O O O O O O O O O O O O O O O O O O O O O O O O B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O
 Nhấn_Đồng ý .,O O O
 Khi nhận hàng nhập_khẩu uỷ_thác :,O O O O O O
 Chọn loại chứng_từ mua hàng là Mua hàng nhập_khẩu không qua kho .,O O O O O O O O O O O O O
@@ -647,7 +616,6 @@ Lập chứng_từ thu / chi tiền,O O O O O O
 "Xuất cho sản_xuất sản_phẩm tại phân_xưởng là 60.000.000 đồng , cho dùng chung tại phân_xưởng là 5.000.000 đồng , cho bộ_phận bán hàng là 15.000.000 đồng và cho bộ_phận quản_lý doanh_nghiệp là 20.000.000 đồng .",O O O O O O O B-MONEY I-MONEY O O O O O O O B-MONEY I-MONEY O O O O O O B-MONEY I-MONEY O O O O O O B-MONEY I-MONEY O
 "Nhấn_Thêm và khai_báo chứng_từ bán hàng , tích chọn Lập kèm hoá_đơn .",O O O O O O O O O O O B-VOUCHER_TYPE O
 Ngày 27/10/2020 : Trả tiền thuê cửa_hàng và thuê văn_phòng bằng tiền gửi ngân_hàng .,B-DATE I-DATE O O O O O O O O O O O O O
-Thuế_suất thuế_thu_nhập doanh_nghiệp 22% .,O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE
 Cho_phép khởi tạo_mẫu hoá_đơn điện_tử từ bộ mẫu có sẵn trên meInvoice.vn Web để không mất_công thiết_kế mẫu .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O
 Mua hàng,O O
 "Chỉ đáp_ứng kết_nối hệ_thống SInvoice V2 , Khách_hàng đang sử_dụng SInvoice V1 cần liên_hệ với Viettel để được hướng_dẫn nâng_cấp lên hệ_thống SInvoice V2",O O O O O O O O O O O O O O O O O O O O O O O O
@@ -665,13 +633,11 @@ Xuất công_cụ - dụng_cụ để sửa_chữa có trị_giá 19.200.000 đ�
 Tải hoá_đơn : cho_phép thực_hiện chức_năng Tải hoá_đơn điện_tử / Tải hoá_đơn điện_tử hàng_loạt .,O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
 "Tìm_kiếm theo tiêu_chí bất_kỳ như : Ngày hoá_đơn , số hoá_đơn , trạng_thái phát_hành , trạng_thái gửi hoá_đơn cho khách_hàng , ...",O O O O O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O
 "Ký thông_qua máy_chủ : Với hình_thức này , chỉ cần cắm USB Token vào máy_chủ , các máy trạm kết_nối với máy_chủ để ký điện_tử , áp_dụng với đơn_vị có nhiều máy_tính cùng thực_hiện ký điện_tử lên hoá_đơn .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE O
-"Ngày 15/9 , Nguyễn_Văn_Hùng mua và nhập kho phụ_gia bê-tông 100 lít , đơn_giá trước thuế GTGT 150.000 đồng / lít , bằng tiền tạm_ứng đồng_thời làm luôn thủ_tục hoàn ứng toàn_bộ số tiền đã tạm_ứng .",B-DATE I-DATE O O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O O O O O O O O O O O O O O
 Tải phim hướng_dẫn tại đây ( Xem hướng_dẫn tải phim ),O O O O O O O O O O O
 "Vào phân hệ Hoá_đơn điện_tử ,",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Doanh_nghiệp ABC hạch_toán thuế GTGT theo phương_pháp khấu_trừ , áp_dụng phương_pháp kê_khai thường_xuyên để hạch_toán hàng tồn_kho , các nghiệp_vụ thanh_toán thực_hiện qua ngân_hàng , có số_liệu như sau :",O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O O O O O O O O O O O O
 Ngân_hàng điện_tử,O O
 "Khai_báo thêm các thông_tin trên đơn mua hàng như : nhà_cung_cấp , ngày đơn hàng , đơn_giá , ... sau đó nhấn Cất .",O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
-"Số giờ công của nhân_công trực_tiếp sản_xuất đã sử_dụng trong kỳ là 72.100 giờ , định_mức của số giờ công_nhân trực_tiếp là 1,5 giờ / sản_phẩm , đơn_giá giờ công là 60.000 đồng / giờ .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O
 Các bước thực_hiện,O O O
 "Lưu_ý : Với chứng_từ Bán hàng xuất_khẩu , cần tích chọn xuất_khẩu vào khu phi thuế_quan và các trường_hợp được coi như xuất_khẩu để có_thể phát_hành được hoá_đơn điện_tử .",O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Trả lại hàng đã mua về nhập kho,O O O O O O O O
@@ -689,11 +655,9 @@ Nhân_viên mua hàng giao lại hàng cùng hoá hàng trả lại cho nhà_cun
 Ngày hoá_đơn có liên_quan,O B-VOUCHER_TYPE O O
 Nhấn_Kết nối .,O O O
 Khi nhập kho hàng nhập_khẩu do bên nhận uỷ_thác bàn_giao lại phản_ánh trị_giá hàng nhập_khẩu .,O O O O O O O O O O O O O O O O
-"Trong tháng 4/2020 , Công_ty C & AE xuất kho bán trực_tiếp một_số thành_phẩm cho khách_hàng với giá_vốn là 100.000.000 đồng , giá bán chưa có thuế GTGT 10% là 140.000.000 đồng .",O B-DATE I-DATE O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O B-MONEY I-MONEY
 "Tính ra tiền_lương phải trả trong tháng : Lương công_nhân trực_tiếp sản_xuất sản_phẩm trả theo sản_phẩm trực_tiếp không hạn_chế , biết số_lượng sản_phẩm hoàn_thành nhập kho là 60.000 sản_phẩm ; đơn_giá tiền_lương trên một sản_phẩm là 15.000.000 đồng .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O
 Chuyển hoá_đơn điện_tử thành hoá_đơn giấy,O O O O B-VOUCHER_TYPE O
 Hướng_dẫn trên phần_mềm,O O O
-"Ngày 15/01/2014 , Công_ty đã mua 01 toà nhà để chuyên cho thuê hoạt_động với giá mua 150.000.000 đ ( Chưa có thuế GTGT 10% ) với phương_thức thanh_toán trả_chậm trong 2 năm .",B-DATE I-DATE O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O O O
 Lấy mẫu hoá_đơn từ meInvoice về MISA SME,O O B-VOUCHER_TYPE O O O O O
 "Lưu_ý : Sau khi gửi hoá_đơn thay_thế lên SInvoice , nếu chưa phát_hành hoá_đơn thì dưới SME hoá_đơn gốc sẽ có trạng_thái là Tạm xoá .",O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O O O O O O
 Biết rằng nguyên giá 900.000.000 đ đã hao_mòn 7.500.000 đ .,O O O O B-MONEY I-MONEY O O B-MONEY I-MONEY O
@@ -713,7 +677,6 @@ Chuyển_khoản tạm_ứng lương kỳ 1 cho người lao_động 1.570.000.0
 Sau khi nhận được hoá_đơn GTGT,O O O O B-VOUCHER_TYPE B-TAX_TYPE
 Ngày 7/10 : Nhập kho vật_liệu B đã mua tháng trước_nay mới về tới kho .,B-DATE I-DATE O O O O O O O O O O O O O O
 "Sau khi xoá hoá_đơn điện_tử , kế_toán có_thể lập Thông_báo huỷ hoá_đơn điện_tử để nộp cho cơ_quan thuế theo một trong hai trường_hợp sau :",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O
-"Trích tài_liệu kế_toán tại công_ty cổ_phần thực_phẩm Thiên_Hương ( đơn_vị cấp trên ) và đơn_vị nội_bộ hạch_toán phụ_thuộc N : áp_dụng phương_pháp kê_khai thường_xuyên để kế_toán hàng tồn_kho , kê_khai và nộp thuế GTGT theo phương_pháp khấu_trừ với thuế_suất 10% , thực_hiện thanh_toán qua ngân_hàng .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O B-TAX_RATE I-TAX_RATE O O O O O
 Nếu thiết_lập chưa đúng thì thực_hiện lại ( Với các nhà_cung_cấp :,O O O O O O O O O O O O
 Khai_báo các thông_tin của hoá_đơn .,O O O O B-VOUCHER_TYPE O
 "Căn_cứ vào yêu_cầu , nhà_cung_cấp thực_hiện giao hàng .",O O O O O O O O O
@@ -721,7 +684,6 @@ Khai_báo các thông_tin của hoá_đơn .,O O O O B-VOUCHER_TYPE O
 Năm thứ : 5 ; Mức khấu_hao hàng tháng : 90.000 đồng,O O O O O O O O O O B-MONEY I-MONEY
 Lựa_chọn phương_thức thanh_toán cho chứng_từ mua hàng là Chưa thanh_toán hoặc Thanh_toán ngay .,O O O O O O O O O O O O O O
 Nhấn_Tiếp theo .,O O O
-"Ngày 20/7/2020 , Công_ty C & AE xuất kho thành_phẩm A đem gửi bán 2.000 sản_phẩm với giá xuất kho là 100.000 đồng / sản_phẩm và giá bán chưa thuế GTGT 10% là 150.000 đồng / sản_phẩm cho công_ty B theo hợp_đồng .",B-DATE I-DATE O O O O O O O O O O O O O O O O O O O B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE O O O O B-VOUCHER_TYPE
 "Chi_phí_sản_xuất chung tổng_cộng : 43.000.000.000 đồng , bao_gồm :",O O O O B-MONEY I-MONEY O O O
 Ký trực_tiếp qua USB token,O O O O O
 Hoặc nếu đã lập Chứng_từ xoá hoá_đơn thì nhấn Lập biên_bản điện_tử tại cột Số biên_bản trên dòng Chứng_từ xoá hoá_đơn tương_ứng .,O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O B-VOUCHER_TYPE O O
@@ -745,12 +707,10 @@ Thông_báo phát_hành : khai_báo các thông_tin về thông_báo phát_hành
 "Trong tháng có các nghiệp_vụ phát_sinh như sau : Dùng tiền gửi ngân_hàng nộp Bảo_hiểm_xã_hội 12.000.000 đồng , Bảo_hiểm_y_tế 4.000.000 đồng , và nhập quỹ tiền_mặt 60.000.000 đồng .",O O O O O O O O O O O O O O O B-MONEY I-MONEY O O B-MONEY I-MONEY O O O O O B-MONEY I-MONEY O
 Kế_toán thanh_toán căn_cứ vào giấy_báo Nợ của ngân_hàng để ghi sổ kế_toán .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Ngày 30/3/2014 , Lãnh_đạo công_ty đã ra quyết_định chuyển toàn_bộ khu đất ở An_Khánh , Công_ty được giao quản_lý sử_dụng 50 năm với diện_tích 3.000 ha , nguyên giá 900.000.000 đ đã hao_mòn 36.000.000.000 đ sang thành BĐS đầu_tư để chuẩn_bị cho Công_ty thương_mại An_Đông thuê 30 năm .",B-DATE I-DATE O O O O O O O O O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O B-MONEY I-MONEY O O O O O O O O O O O O O O
-"Ngày 20/3 , nhập kho hàng_hoá E mua chịu của Công_ty Him_Lam theo hoá_đơn GTGT là 10.500.000 bao_gồm cả thuế GTGT 5% .",B-DATE I-DATE O O O O O O O O O O O B-VOUCHER_TYPE B-TAX_TYPE O B-MONEY O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE
 Số còn phải trả theo hoá_đơn ( ở tab chi_tiết ) = Phải trả theo hoá_đơn - Số đã trả / Giảm trừ hoá_đơn ( theo từng dòng chi_tiết ),O O O O O B-VOUCHER_TYPE O O O O O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O O O O O O
 Lập hồ_sơ để thông_báo phát_hành hoá_đơn,O O O O O B-VOUCHER_TYPE
 "Nhấn_Thêm và khai_báo chứng_từ bán hàng , không tích chọn Lập kèm hoá_đơn .",O O O O O O O O O O O O B-VOUCHER_TYPE O
 Lập nhanh các đơn mua hàng,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE
-"Đơn_giá gia_công là 3.000 đồng ( chưa gồm 10% thuế GTGT ) , chưa thanh_toán .",O O O B-MONEY I-MONEY O O O B-TAX_RATE I-TAX_RATE B-TAX_TYPE I-TAX_TYPE O O O O
 "Kế_toán căn_cứ vào Hợp_đồng góp vốn liên_doanh , Biên_bản bàn_giao tài_sản góp vốn , Phiếu xuất kho và các chứng_từ liên_quan , hãy ghi sổ các nghiệp_vụ kể trên .",O O O B-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O
 Bột mì đã về nhập kho theo phiếu nhập kho số 601 .,O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE I-VOUCHER_TYPE O O O
 STT : 3 ; Loại tài_sản_cố_định : C ; Nguyên giá tài_sản_cố_định : 800.000.000 đồng ; Đơn_vị sử_dụng tài_sản_cố_định : Phân_xưởng sản_xuất ; Phương_pháp khấu_hao tài_sản_cố_định : Khấu_hao theo số_dư giảm dần có điều_chỉnh ; Thời_gian sử_dụng : 4 năm ; Số năm đang sử_dụng : 3 năm .,O O O O O O O O O O O O O B-MONEY I-MONEY O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
@@ -758,7 +718,6 @@ Lệ_phí tham_gia đấu_giá và tiền đặt_cọc đã thu được của 1
 Giúp cập_nhật được ngay trạng_thái mới nhất của hoá_đơn trên phần_mềm meInvoice.vn ( bản meInvoice Desktop và meInvoice Web ) về phần_mềm MISA SME.NET.,O O O O O O O O B-VOUCHER_TYPE O O O O O O O O O O O O O O O
 Thao_tác thực_hiện đối_với hoá_đơn điện_tử theo Nghị_định 123 tương_tự như với hoá_đơn điện_tử theo Nghị_định 51 .,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Tích chọn các đối trừ cần bỏ , nhấn Bỏ đối trừ .",O O O O O O O O O O O O O
-Ngày 7/10 : Mua một lô hàng_hoá nhập kho trị_giá 120.000.000 đ ( chưa gồm thuế GTGT 10% ) đã thanh_toán bằng tiền gửi ngân_hàng .,B-DATE I-DATE O O O O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O O
 Chọn Không kèm hoá_đơn .,O O O B-VOUCHER_TYPE O
 "Từ MISA SME 2022 - R16 trở đi , phần_mềm cho_phép người dùng lập hoá_đơn cho hoá_đơn điều_chỉnh phát_hành theo NĐ123 , lấy về từ meInvoice.vn để kê lên tờ khai thuế .",O O O O O O O O O O O O O O B-VOUCHER_TYPE O B-VOUCHER_TYPE O O O O O O O O O O O O O O O O
 Lập hoá_đơn thay_thế trên SME,O B-VOUCHER_TYPE O O O
@@ -767,7 +726,6 @@ Khai_báo các thông_tin về chứng_từ mua hàng nhập_khẩu không nhậ
 "Kết_nối phần_mềm hoá_đơn điện_tử , lập phiếu chi từ hoá_đơn điện_tử .",O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O
 "Ngày 1/1 : Số_dư đầu kỳ các TK 151 : “ Hàng mua đang đi đường ” và TK 152 “ Nguyên_liệu , vật_liệu ” tương_ứng là 100.000.000 đồng và 1.500.000.000 đồng .",B-DATE I-DATE O O O O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O O O O O O O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O O O O O O B-MONEY I-MONEY O B-MONEY I-MONEY O
 "Khi nhân_viên xin đề_nghị chuyển_khoản tạm_ứng để : đi công_tác , mua hàng_hoá , tiếp khách ... bộ_phận kế_toán thường phát_sinh các hoạt_động sau :",O O O O O B-ACCOUNT_NAME O O O O O O O O O O O O O O O O O O O
-"Doanh_nghiệp ABC hạch_toán thuế GTGT theo phương_pháp khấu_trừ với thuế_suất 10% , áp_dụng phương_pháp kê_khai thường_xuyên để hạch_toán hàng tồn_kho , các nghiệp_vụ thanh_toán thực_hiện qua ngân_hàng , tính giá xuất kho theo phương_pháp FIFO , có số_liệu như sau .",O O O B-TAX_TYPE I-TAX_TYPE O O O O O B-TAX_RATE I-TAX_RATE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 Xác_nhận lập chứng_từ mua hàng có nhận kèm hoá_đơn hoặc không có hoá_đơn .,O O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O
 Lập và phát_hành hoá_đơn Đăng_kiểm xe_cơ_giới theo Nghị_định 123 tương_tự như lập hoá_đơn cùng loại theo Nghị_định 51 và các hoá_đơn điện_tử khác,O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Khấu_trừ thuế_thu_nhập cá_nhân với số tiền là 58.000.000 đồng .,O B-TAX_TYPE I-TAX_TYPE O O O O B-MONEY I-MONEY O
@@ -780,7 +738,6 @@ Chọn hoá_đơn được điều_chỉnh :,O B-VOUCHER_TYPE O O O
 Dựa trên mẫu : cho_phép tạo_mẫu hoá_đơn dựa trên mẫu do phần_mềm cung_cấp .,O O O O O O B-VOUCHER_TYPE O O O O O O O
 "Sau khi khai_báo xong , nhấn Cất .",O O O O O O O O
 Vào Tiện_ích \ Lập từ Lệnh sản_xuất .,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
-Giúp_Khách hàng sử_dụng phần_mềm Kế_toán SME có_thể phát_hành hoá_đơn điện_tử áp_dụng theo Nghị_định 51/2010/NĐ-CP thông_qua dịch_vụ hoá_đơn điện_tử EasyInvoice của Softdream .,O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Có_thể xem trước nội_dung hoá_đơn trước khi tải về bằng cách nhấn Xem hoá_đơn .,O O O O B-VOUCHER_TYPE O O O O O O O O B-VOUCHER_TYPE O
 "Đem tiền_mặt gửi vào ngân_hàng 30.000.000 đồng , chưa nhận được Giấy_báo Có .",O O O O O B-MONEY I-MONEY O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 Kiểm_tra chứng_từ chi tiền gửi và chọn tài_khoản ngân_hàng chi tiền .,O O O O O O O O O O O O
@@ -798,14 +755,12 @@ Tổng doanh_thu với giá cố_định ban_đầu ghi trong hợp_đồng : N�
 "Ngày 29/8 , vật_liệu A đã về nhập kho đủ .",B-DATE I-DATE O O O O O O O O O
 "Tiền_lương nhân_công phải trả trong quá_trình sửa_chữa là 20.000.000 đồng , các khoản trích theo lương 24% .",O O O O O O O O B-MONEY I-MONEY O O O O O O O O
 Bắt_đầu sử_dụng hoá_đơn điện_tử,O O B-VOUCHER_TYPE I-VOUCHER_TYPE
-"Chi_phí đăng_ký pháp_lý liên_quan đến bản_quyền công_nghệ trong nước là 16,5 triệu VND đã trả bằng tiền_mặt ( đã bao_gồm thuế GTGT 10% ) .",O O O O O O O O O O B-MONEY I-MONEY I-MONEY O O O O O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O
 Lưu_ý : Việc lập chứng_từ bán hàng sau khi lập hoá_đơn GTGT còn được thực_hiện bằng cách :,O O O O O O O O O O B-VOUCHER_TYPE B-TAX_TYPE O O O O O O
 Tích chọn Xuất chuyển kho nội_bộ .,O O O O O O O
 Lập và phát_hành hoá_đơn điện_tử,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 "Căn_cứ vào bảng thanh_toán BHXH , các chứng_từ liên_quan đến nghỉ ốm của người lao_động , phiếu chi tiền_mặt , kế_toán hãy hạch_toán các nghiệp_vụ kể trên .",O O O O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
 Khai_báo thông_tin về hoá_đơn GTGT .,O O O B-VOUCHER_TYPE B-TAX_TYPE O
 "Lưu_ý : Trường_hợp muốn gửi thông_tin xoá hoá_đơn điện_tử cho cùng lúc nhiều địa_chỉ email thì nhập các địa_chỉ email này và mục Email và cách nhau bởi dấu "" ; """,O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O O O O O O O O O O
-Vật_liệu F nhập kho dư 2% so với số_lượng được phản_ánh trên hoá_đơn GTGT .,O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 Chọn hoá_đơn trên danh_sách và nhấn Đồng_ý .,O B-VOUCHER_TYPE O O O O O O
 "Ngày 19/04/2016 , chuyển_khoản thanh_toán cho người bán sau khi trừ chiết_khấu thanh_toán hưởng 1,5% .",B-DATE I-DATE O O O O O O O O O O O O O O
 Phát_hành hoá_đơn điện_tử : cho_phép thực_hiện chức_năng Phát_hành hoá_đơn / phát_hành hoá_đơn điện_tử hàng_loạt .,O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O
@@ -831,7 +786,6 @@ Mua hàng tại đơn_vị nhận uỷ_thác nhập_khẩu,O O O O O O O
 "Ngân_hàng căn_cứ vào Uỷ_nhiệm chi của công_ty sẽ chuyển tiền vào tài_khoản của cơ_quan nhà_nước , đồng_thời lập giấy_báo Nợ .",O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O
 "Vào phân hệ Bán hàng \ tab Bán hàng hoặc tab Trả lại hàng bán ( hoặc có_thể thực_hiện trên các phân hệ Mua hàng , Kho )",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
 "Lưu_ý : Chương_trình đáp_ứng nhập_khẩu hoá_đơn điện_tử được phát_hành bởi các nhà_cung_cấp , xem tại đây .",O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O
-Hãy ghi_nhận giao_dịch bán tài_sản_cố_định và phân_bổ chênh_lệch giữa giá bán ( chưa gồm 10% thuế GTGT ) với giá_trị còn lại của tài_sản_cố_định đó .,O O O O O O O O O O O O O O B-TAX_RATE I-TAX_RATE B-TAX_TYPE I-TAX_TYPE O O O O O O O O
 Năm thứ : 3 ; Giá_trị còn lại của TSCĐ : 3.600.000 đồng,O O O O O O O O O O O B-MONEY I-MONEY
 Nếu hoá_đơn được xuất từ đề_nghị xuất hoá_đơn thì lấy tên người nhận hoá_đơn và email người nhận trên đề_nghị xuất hoá_đơn .,O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O B-VOUCHER_TYPE O O O O O O O B-VOUCHER_TYPE O
 Có TK 228 Đầu_tư khác ( TT 200 ),O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME O O O O
@@ -877,7 +831,6 @@ Trên phần_mềm kế_toán : Thiết_lập kết_nối phần_mềm quản_l�
 "Với mã_số thuế kết_nối chưa có tờ khai đăng_ký sử_dụng hoá_đơn điện_tử được cơ_quan thuế chấp_nhận , nếu trước đó trên Hệ_thống \ Tuỳ chọn \ Hoá_đơn , người dùng :",O O O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O O O O O O B-VOUCHER_TYPE O O O O
 Ví_dụ : Năm lập hoá_đơn điện_tử là năm 2022 thì thể_hiện là số 22 ; năm lập hoá_đơn điện_tử là năm 2023 thì thể_hiện là số 23 .,O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-DATE I-DATE O O O O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O B-DATE I-DATE O O O O O O
 Có TK 411 Vốn đầu_tư của chủ_sở_hữu ( đối_với tài_sản thừa không xác_định được nguyên_nhân hoặc không tìm được chủ_sở_hữu ),O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER B-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME I-ACCOUNT_NAME O O O O O O O O O O O O O O
-Công_ty quyết_định đầu_tư xây_dựng một khu nhà làm_việc cho phân_xưởng sản_xuất theo phương_thức giao_thầu với bên B ( đơn_vị thi_công ) bằng nguồn vốn đầu_tư xây_dựng_cơ_bản với giá dự_toán công_trình chưa gồm 10% thuế GTGT là 15.000.000.000 đồng ( trong đó có một phần vật_tư do doanh_nghiệp đảm_nhiệm cung_cấp ) .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TAX_RATE I-TAX_RATE B-TAX_TYPE I-TAX_TYPE O B-MONEY I-MONEY O O O O O O O O O O O O
 Thiết_lập email gửi hoá_đơn điện_tử,O O O B-VOUCHER_TYPE I-VOUCHER_TYPE
 "Cấp số hoá_đơn : Kế_toán thiết_lập các thông_tin Mẫu_số hoá_đơn , Ký_hiệu hoá_đơn , Ngày hoá_đơn muốn phát_hành .",O O O O O O O O O O O O O O O O O O O
 Nhấn_Tiếp theo .,O O O
@@ -906,13 +859,11 @@ Có_thể Sửa / Xoá hoá_đơn và gửi lên EasyInvoice phát_hành lại,O
 Khi đó trên sổ_sách của tổng_công_ty thì sẽ hết số_dư TK 1361 nhưng trên từng chi_nhánh thì vẫn có số_dư này .,O O O O O O O O O O B-ACCOUNT_NUMBER I-ACCOUNT_NUMBER O O O O O O O O O O
 "Mô_tả nghiệp_vụ : Khi công_ty phát_sinh các nghiệp_vụ nộp bảo_hiểm cho nhân_viên , thường phát_sinh các hoạt_động sau :",O O O O O O O O O O O O O O O O O O O
 Nhấn_Gửi .,O O
-"Qua tìm_hiểu công_ty xây_dựng B ( là đối_tác đang muốn bán cần_cẩu để mua ô_tô tải ) , công_ty xây_dựng A đã tiến_hành đàm_phán với công_ty xây_dựng B và thống_nhất công_ty A sẽ đổi ô_tô với giá 180.000.000 đồng ( đã bao_gồm thuế GTGT 10% ) để lấy cần_cẩu với giá 300.000.000 đồng ( đã bao_gồm thuế GTGT 10% ) và Công_ty A đã thanh_toán số chênh_lệch giữa giá ô_tô và cần_cẩu bằng tiền khi nhận cần_cẩu về .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O B-MONEY I-MONEY O O O B-TAX_TYPE I-TAX_TYPE B-TAX_RATE I-TAX_RATE O O O O O O O O O O O O O O O O O O
 Chương_trình sẽ lấy lên các hoá_đơn đã cấp số hoá_đơn và chưa cấp số hoá_đơn,O O O O O B-VOUCHER_TYPE O O O O O O O O O
 Lưu_ý :,O O
 Tháng : Tháng 9 ; Khối_lượng sản_phẩm hoàn_thành ( m3 ) : 16.000,O O B-DATE I-DATE O O O O O O O O O
 Chỉ_tiêu : Chi_phí thực_tế đến năm : Năm 2015 : 4.050.000.000 đ,O O O O O O O B-DATE I-DATE O B-MONEY I-MONEY
 Vay ngắn_hạn ngân_hàng về nhập quỹ tiền_mặt 100.000.000 đồng .,O O O O O O O B-MONEY I-MONEY O
-"Mua thêm vật_tư bên ngoài phục_vụ cho quá_trình sửa_chữa , đã thanh_toán qua ngân_hàng số tiền là 77.000.000 đồng ( đã gồm 10% thuế GTGT ) .",O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O O O B-TAX_RATE I-TAX_RATE B-TAX_TYPE I-TAX_TYPE O
 "Với loại email Mua hàng_hoá , dịch_vụ .",O O O O O O O O
 "Với trường_hợp này , Kế_toán cần lập chứng_từ hoặc hoá_đơn mới thay_thế cho hoá_đơn bị xoá_bỏ .",O O O O O O O O O B-VOUCHER_TYPE O O O B-VOUCHER_TYPE O O O
 Nhấn_Kiểm_tra thiết_lập để xem thông_tin về cấu_hình email có đúng hay không .,O O O O O O O O O O O O O
@@ -935,7 +886,6 @@ Bù_trừ công_nợ,O O
 Đăng_nhập vào phần_mềm EasyInvoice để phát_hành hoá_đơn được gửi từ MISA SME.NET sang .,O O O O O O B-VOUCHER_TYPE O O O O O O O
 Lập chứng_từ mua hàng,O O O O
 Nộp thuế hàng nhập_khẩu bằng tiền_mặt .,O O O O O O O
-Tỷ_lệ lãi_suất biên đi vay kỳ_hạn 4 năm là 11% / năm .,O O O O O O O O O B-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE I-UNIT_PRICE
 Tại thời_điểm mua trái_phiếu người mua phải trả 10.450.000 đ trong đó có phụ_trội trái_phiếu .,O O O O O O O O B-MONEY I-MONEY O O O O O O
 Chữ L : Áp_dụng đối_với hoá_đơn điện_tử của cơ_quan thuế cấp theo từng lần phát_sinh ;,O O O O O B-VOUCHER_TYPE I-VOUCHER_TYPE O O O O O O O O O
 "Công_ty TNHH Shinee Việt_Nam tính thuế GTGT theo phương_pháp khấu_trừ , có tài_liệu về thiết_bị sản_xuất mua ngoài dùng cho bộ_phận sản_xuất như sau :",O O O O O B-TAX_TYPE I-TAX_TYPE O O O O O O O O O O O O O O O O O O
