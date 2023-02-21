@@ -7,28 +7,32 @@ from data import NERDataset
 from engines import *
 
 tag_names = [
-    "B-ACCOUNT_NUMBER", 
-    "B-ACCOUNT_NAME", 
+    "B-PATIENT_ID", 
+    "B-NAME", 
+    "B-AGE", 
+    "B-GENDER", 
+    "B-JOB", 
+    "B-LOCATION", 
+    "B-ORGANIZATION", 
+    "B-SYMPTOM_AND_DISEASE", 
+    "B-TRANSPORTATION", 
     "B-DATE", 
-    "B-UNIT_PRICE", 
-    "B-MONEY", 
-    "B-TAX_TYPE", 
-    "B-TAX_RATE", 
-    "B-VOUCHER_TYPE", 
-    "I-ACCOUNT_NUMBER", 
-    "I-ACCOUNT_NAME", 
+    "I-PATIENT_ID", 
+    "I-NAME", 
+    "I-AGE", 
+    "I-GENDER", 
+    "I-JOB", 
+    "I-LOCATION", 
+    "I-ORGANIZATION", 
+    "I-SYMPTOM_AND_DISEASE", 
+    "I-TRANSPORTATION", 
     "I-DATE", 
-    "I-UNIT_PRICE", 
-    "I-MONEY", 
-    "I-TAX_TYPE", 
-    "I-TAX_RATE", 
-    "I-VOUCHER_TYPE", 
     "O"
 ]
 
 test_loader = torch.utils.data.DataLoader(
     NERDataset(
-        data_path = "../../datasets/AccountingNER/02-18/test.csv", 
+        data_path = "../../datasets/PhoNER-COVID-19/word/test.json", 
         tag_names = tag_names, 
     ), 
     num_workers = 4, batch_size = 8, 
@@ -39,7 +43,7 @@ model = transformers.RobertaForTokenClassification.from_pretrained(
     num_labels = len(tag_names), 
 )
 
-save_ckp_dir = "../../ckps/AccountingNER"
+save_ckp_dir = "../../ckps/PhoNER-COVID-19/word"
 model = torch.load(
     "{}/best.ptl".format(save_ckp_dir), 
     map_location = "cuda", 
