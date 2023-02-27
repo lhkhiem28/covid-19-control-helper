@@ -1,6 +1,5 @@
-/ckps/*/*.ptl
-/ckps/*/*.bin
-/source/demo/vncorenlp
+/datasets
+/ckps/*/*
 
 **/__pycache__
 **/wandb
