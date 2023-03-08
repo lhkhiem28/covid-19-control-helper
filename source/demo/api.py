@@ -5,6 +5,9 @@ class NER():
     def __init__(self, 
         ckp_dir, 
     ):
+        self.segmenter = vncorenlp.VnCoreNLP(annotators = ["wseg"], 
+            save_dir = "/home/ubuntu/khiem.lh/Free/ViNER/source/demo/VnCoreNLP/", 
+        )
         self.model = transformers.pipeline("token-classification", 
             ckp_dir, aggregation_strategy = "simple", 
         )
@@ -13,18 +16,16 @@ class NER():
         sentence, 
     ):
         sentence = vitools.normalize_diacritics(sentence)
-        sentence = underthesea.word_tokenize(sentence, format = "text")
+        sentence = self.segmenter.word_segment(sentence)[0]
         output = {
-            "PATIENT_ID":[], 
-            "NAME":[], 
-            "AGE":[], 
-            "GENDER":[], 
-            "JOB":[], 
-            "LOCATION":[], 
-            "ORGANIZATION":[], 
-            "SYMPTOM_AND_DISEASE":[], 
-            "TRANSPORTATION":[], 
+            "ACCOUNT_NUMBER":[], 
+            "ACCOUNT_NAME":[], 
             "DATE":[], 
+            "UNIT_PRICE":[], 
+            "MONEY":[], 
+            "TAX_TYPE":[], 
+            "TAX_RATE":[], 
+            "VOUCHER_TYPE":[], 
         }
         pred = self.model(sentence)
         for entity in pred:
