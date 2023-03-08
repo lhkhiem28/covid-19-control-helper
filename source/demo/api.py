@@ -15,8 +15,18 @@ class NER():
     def ner_predict(self, 
         sentence, 
     ):
+        errors = {
+            "Nợ_TK":"Nợ TK", 
+            "trên_tài khoản":"trên tài_khoản", 
+            "vào_sổ":"vào sổ", 
+            "_hoá đơn":" hoá_đơn", 
+            "_Hoá đơn":" Hoá_đơn", 
+        }
+
         sentence = vitools.normalize_diacritics(sentence)
         sentence = self.segmenter.word_segment(sentence)[0]
+        for error, correction in errors.items():
+            sentence.replace(error, correction)
         output = {
             "ACCOUNT_NUMBER":[], 
             "ACCOUNT_NAME":[], 
