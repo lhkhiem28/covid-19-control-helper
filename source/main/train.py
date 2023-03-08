@@ -7,33 +7,29 @@ from data import NERDataset
 from engines import *
 
 tag_names = [
-    "B-PATIENT_ID", 
-    "B-NAME", 
-    "B-AGE", 
-    "B-GENDER", 
-    "B-JOB", 
-    "B-LOCATION", 
-    "B-ORGANIZATION", 
-    "B-SYMPTOM_AND_DISEASE", 
-    "B-TRANSPORTATION", 
+    "B-ACCOUNT_NUMBER", 
+    "B-ACCOUNT_NAME", 
     "B-DATE", 
-    "I-PATIENT_ID", 
-    "I-NAME", 
-    "I-AGE", 
-    "I-GENDER", 
-    "I-JOB", 
-    "I-LOCATION", 
-    "I-ORGANIZATION", 
-    "I-SYMPTOM_AND_DISEASE", 
-    "I-TRANSPORTATION", 
+    "B-UNIT_PRICE", 
+    "B-MONEY", 
+    "B-TAX_TYPE", 
+    "B-TAX_RATE", 
+    "B-VOUCHER_TYPE", 
+    "I-ACCOUNT_NUMBER", 
+    "I-ACCOUNT_NAME", 
     "I-DATE", 
+    "I-UNIT_PRICE", 
+    "I-MONEY", 
+    "I-TAX_TYPE", 
+    "I-TAX_RATE", 
+    "I-VOUCHER_TYPE", 
     "O"
 ]
 
 train_loaders = {
     "train":torch.utils.data.DataLoader(
         NERDataset(
-            data_path = "../../datasets/PhoNER-COVID-19/word/train.json", 
+            data_path = "../../datasets/AccountingNER/word/train.csv", 
             tag_names = tag_names, 
         ), 
         num_workers = 4, batch_size = 8, 
@@ -41,7 +37,7 @@ train_loaders = {
     ), 
     "val":torch.utils.data.DataLoader(
         NERDataset(
-            data_path = "../../datasets/PhoNER-COVID-19/word/val.json", 
+            data_path = "../../datasets/AccountingNER/word/val.csv", 
             tag_names = tag_names, 
         ), 
         num_workers = 4, batch_size = 8, 
@@ -56,11 +52,11 @@ optimizer = torch.optim.Adam(
     model.parameters(), lr = 1e-5, 
 )
 
-save_ckp_dir = "../../ckps/PhoNER-COVID-19/word"
+save_ckp_dir = "../../ckps/AccountingNER/word"
 if not os.path.exists(save_ckp_dir):
     os.makedirs(save_ckp_dir)
 train_fn(
-    train_loaders, num_epochs = 10, 
+    train_loaders, num_epochs = 30, 
     model = model, 
     optimizer = optimizer, 
     save_ckp_dir = save_ckp_dir, 
