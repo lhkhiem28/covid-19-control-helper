@@ -60,7 +60,9 @@ def train_fn(
             val_loss, val_f1
         ))
         if val_f1 > best_f1:
-            torch.save(model, "{}/best.ptl".format(save_ckp_dir))
+            train_loaders["train"].dataset.tokenizer.save_pretrained(save_ckp_dir)
+
+            torch.save(model, "{}/best.ptl".format(save_ckp_dir)); model.save_pretrained(save_ckp_dir)
             best_f1 = val_f1
 
     print("\nFinish Training ...\n" + " = "*16)
